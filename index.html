@@ -1,0 +1,2478 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আল নূর ট্যুর অ্যান্ড ট্রাভেলস | Al Noor Tour & Travels — হজ্জ, উমরাহ ও জিয়ারত</title>
+  <meta name="description" content="আল নূর ট্যুর অ্যান্ড ট্রাভেলস — হজ্জ, উমরাহ ও জিয়ারতের নির্ভরযোগ্য কাফেলা। সুলভ মূল্যে সুন্নাত তরিকায় পবিত্র মক্কা ও মদিনা সফর। রাজারহাট, কলকাতা – ৭০০১৩৫।">
+  
+  <!-- Premium Typography: Anton, Cinzel, Baloo Da 2, Outfit, Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Da+2:wght@400;500;600;700;800&family=Cinzel:wght@600;700;800;900&family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome 6.5.1 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    :root {
+      /* Deep Emerald Obsidian Palette */
+      --bg-void: #040806;
+      --bg-void-deep: #020504;
+      --bg-panel: rgba(8, 18, 14, 0.90);
+      --bg-panel-hover: rgba(12, 26, 20, 0.96);
+      --bg-card: rgba(11, 24, 19, 0.82);
+      
+      /* Sophisticated Champagne & Metallic Gold */
+      --gold-primary: #d4af37;
+      --gold-bright: #ffd700;
+      --gold-light: #fbeea4;
+      --gold-metallic: linear-gradient(135deg, #fff4bf 0%, #e2be52 40%, #c49924 80%, #947113 100%);
+      --gold-glow: rgba(212, 175, 55, 0.38);
+      --gold-dark: #8c6f14;
+      
+      /* Refined Imperial Ruby */
+      --red-flame: #d93829;
+      --red-flame-hover: #ef4444;
+      --red-flame-glow: rgba(217, 56, 41, 0.5);
+      --red-dark: #450f0b;
+      
+      /* Vibrant Emerald & Mint */
+      --emerald-accent: #10b981;
+      --emerald-glow: rgba(16, 185, 129, 0.35);
+      
+      /* Crisp High-Contrast Typography */
+      --text-white: #ffffff;
+      --text-light: #f1f5f9;
+      --text-muted: #cbd5e1;
+      --text-dim: #94a3b8;
+      
+      /* Refined Glass Borders */
+      --border-gold: rgba(212, 175, 55, 0.32);
+      --border-gold-hover: rgba(255, 215, 0, 0.7);
+      --border-red: rgba(217, 56, 41, 0.45);
+      --border-emerald: rgba(16, 185, 129, 0.35);
+      --border-glass: rgba(255, 255, 255, 0.09);
+      
+      /* Typography mappings */
+      --font-display: 'Anton', -apple-system, sans-serif;
+      --font-heading: 'Cinzel', serif;
+      --font-bn: 'Baloo Da 2', cursive, sans-serif;
+      --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      
+      --transition-smooth: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg-void);
+      color: var(--text-light);
+      font-family: var(--font-bn);
+      overflow-x: hidden;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* BACKGROUND PARALLAX SANCTUARY */
+    .site-universe-bg {
+      position: fixed;
+      inset: 0;
+      z-index: -3;
+      background: radial-gradient(ellipse at 50% 20%, rgba(14, 92, 63, 0.28) 0%, rgba(4, 8, 6, 0.98) 75%);
+      pointer-events: none;
+    }
+
+    .site-universe-backdrop {
+      position: fixed;
+      top: -10vh;
+      left: 0;
+      width: 100vw;
+      height: 120vh;
+      z-index: -2;
+      background-image: url('assets/kaaba-night.jpg');
+      background-size: cover;
+      background-position: center top;
+      opacity: 0.65;
+      filter: contrast(115%) brightness(88%) saturate(120%);
+      pointer-events: none;
+      will-change: transform;
+      transition: transform 0.1s linear;
+    }
+
+    .cinematic-vignette {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 50;
+      background: radial-gradient(circle at center, transparent 38%, rgba(2, 5, 4, 0.88) 98%);
+    }
+
+    /* REALISTIC BRANCHING LIGHTNING */
+    #lightning-canvas {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 55;
+    }
+
+    #lightning-sky-flash {
+      position: fixed;
+      inset: 0;
+      background: rgba(220, 245, 255, 0.85);
+      opacity: 0;
+      pointer-events: none;
+      z-index: 54;
+      transition: opacity 0.08s ease;
+    }
+
+    /* ENTRY OVERLAY GATE */
+    #entry-overlay {
+      position: fixed;
+      inset: 0;
+      background: #020504;
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+      transition: opacity 0.9s cubic-bezier(0.77, 0, 0.175, 1), transform 0.9s cubic-bezier(0.77, 0, 0.175, 1), visibility 0.9s;
+    }
+
+    #entry-overlay.fade-out {
+      opacity: 0;
+      transform: scale(1.05);
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .entry-bg-kaaba {
+      position: absolute;
+      inset: 0;
+      background-image: url('assets/kaaba-night.jpg');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.40;
+      filter: blur(4px) brightness(85%);
+      animation: slowZoom 22s infinite alternate ease-in-out;
+    }
+
+    @keyframes slowZoom {
+      0% { transform: scale(1); }
+      100% { transform: scale(1.10); }
+    }
+
+    .entry-content {
+      position: relative;
+      z-index: 2;
+      max-width: 760px;
+    }
+
+    .entry-tag {
+      font-family: var(--font-sans);
+      font-size: 12.5px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      color: var(--gold-bright);
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      display: inline-block;
+      border: 1px solid var(--border-gold);
+      padding: 7px 22px;
+      border-radius: 999px;
+      background: rgba(5, 15, 11, 0.85);
+      box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    }
+
+    .entry-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.8rem, 7vw, 5.2rem);
+      line-height: 1.05;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .entry-arabic-title {
+      font-family: var(--font-bn);
+      font-size: clamp(2.3rem, 5.2vw, 4rem);
+      font-weight: 800;
+      background: var(--gold-metallic);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 4px 25px var(--gold-glow);
+      margin-bottom: 12px;
+    }
+
+    .entry-subtitle {
+      font-size: clamp(1.15rem, 2.2vw, 1.55rem);
+      color: var(--text-light);
+      margin-bottom: 35px;
+      font-weight: 500;
+    }
+
+    .amulet-btn {
+      position: relative;
+      background: radial-gradient(circle at 50% 35%, #e53935 0%, #b71c1c 45%, #4a0d0a 85%, #150404 100%);
+      color: #ffffff;
+      font-family: var(--font-sans);
+      font-size: 1.05rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 800;
+      padding: 16px 42px;
+      border: 1px solid rgba(255, 120, 110, 0.7);
+      border-radius: 999px;
+      cursor: pointer;
+      box-shadow: 0 0 0 2px rgba(8, 4, 4, 0.9), 0 0 40px rgba(217, 56, 41, 0.65), inset 0 0 25px rgba(255, 255, 255, 0.25);
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      transition: var(--transition-smooth);
+    }
+
+    .amulet-btn:hover {
+      transform: translateY(-2px) scale(1.04);
+      box-shadow: 0 0 55px rgba(217, 56, 41, 0.9), inset 0 0 30px rgba(255, 255, 255, 0.45);
+    }
+
+    .amulet-ring {
+      position: absolute;
+      inset: -10px;
+      border-radius: 999px;
+      border: 1px solid rgba(217, 56, 41, 0.65);
+      animation: ringPulse 2.8s ease-out infinite;
+      pointer-events: none;
+    }
+
+    .amulet-ring.r2 {
+      animation-delay: 1.4s;
+      border-color: rgba(212, 175, 55, 0.6);
+    }
+
+    @keyframes ringPulse {
+      0% { transform: scale(0.92); opacity: 0.9; }
+      100% { transform: scale(1.35); opacity: 0; }
+    }
+
+    /* TITLES & HEADINGS */
+    .title-white {
+      color: #ffffff;
+      font-family: var(--font-display);
+      letter-spacing: 1.5px;
+    }
+
+    .title-crimson {
+      color: var(--red-flame);
+      font-family: var(--font-display);
+      text-shadow: 0 0 25px var(--red-flame-glow);
+      letter-spacing: 1.5px;
+    }
+
+    .title-gold {
+      background: var(--gold-metallic);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: var(--font-display);
+      letter-spacing: 1.5px;
+    }
+
+    .crisp-gold-bn {
+      background: var(--gold-metallic);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 800;
+      filter: drop-shadow(0 2px 10px rgba(0,0,0,0.95));
+    }
+
+    /* STICKY LUXURY HEADER (NO LANGUAGE SWITCHER) */
+    header.site-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: linear-gradient(180deg, rgba(3, 8, 6, 0.97) 0%, rgba(3, 8, 6, 0.88) 75%, transparent 100%);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(212, 175, 55, 0.28);
+      padding: 12px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: var(--transition-smooth);
+    }
+
+    .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .brand-emblem {
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+      background: radial-gradient(circle at 40% 30%, #ffd700 0%, #aa841e 70%, #201503 100%);
+      border: 1.5px solid var(--gold-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #050a08;
+      font-size: 1.4rem;
+      box-shadow: 0 0 20px var(--gold-glow);
+      flex-shrink: 0;
+    }
+
+    .brand-text-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .brand-bn-title {
+      font-family: var(--font-bn);
+      font-size: 1.35rem;
+      font-weight: 800;
+      line-height: 1.1;
+      color: var(--gold-bright);
+      letter-spacing: 0.5px;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+    }
+
+    .brand-sub-1 {
+      font-family: var(--font-sans);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2.2px;
+      color: #ffffff;
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+
+    .brand-sub-2 {
+      font-family: var(--font-sans);
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: var(--gold-light);
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+
+    nav.desktop-nav {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+
+    nav.desktop-nav a {
+      color: #e2e8f0;
+      text-decoration: none;
+      font-size: 1.05rem;
+      font-weight: 600;
+      position: relative;
+      padding: 6px 4px;
+      transition: color 0.3s;
+      cursor: pointer;
+    }
+
+    nav.desktop-nav a:hover,
+    nav.desktop-nav a.active {
+      color: var(--gold-bright);
+    }
+
+    nav.desktop-nav a.active::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: var(--gold-bright);
+      box-shadow: 0 0 10px var(--gold-glow);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    /* SOUND EQUALIZER BUTTON */
+    .sound-toggle-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      height: 40px;
+      padding: 0 16px;
+      border-radius: 999px;
+      border: 1px solid var(--border-gold);
+      background: rgba(14, 30, 24, 0.85);
+      color: #ffd9d5;
+      font-family: var(--font-sans);
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      backdrop-filter: blur(8px);
+      cursor: pointer;
+      transition: var(--transition-smooth);
+    }
+
+    .sound-toggle-btn:hover {
+      border-color: var(--gold-bright);
+      box-shadow: 0 0 20px var(--gold-glow);
+      color: #fff;
+    }
+
+    .eq-bars {
+      display: inline-flex;
+      align-items: flex-end;
+      gap: 2.5px;
+      height: 13px;
+    }
+
+    .eq-bars i {
+      width: 2.5px;
+      height: 4px;
+      background: var(--gold-bright);
+      border-radius: 1px;
+      transition: height 0.2s;
+    }
+
+    .sound-toggle-btn.playing .eq-bars i {
+      animation: eqBounce 0.8s ease-in-out infinite;
+    }
+
+    .sound-toggle-btn.playing .eq-bars i:nth-child(2) { animation-delay: 0.15s; }
+    .sound-toggle-btn.playing .eq-bars i:nth-child(3) { animation-delay: 0.3s; }
+
+    @keyframes eqBounce {
+      0%, 100% { height: 3px; }
+      50% { height: 13px; }
+    }
+
+    .btn-header-cta {
+      height: 40px;
+      padding: 0 24px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
+      color: #fff;
+      font-family: var(--font-sans);
+      font-size: 12px;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      font-weight: 800;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      transition: box-shadow .3s, transform .2s;
+      box-shadow: 0 0 16px rgba(217, 56, 41, 0.45);
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-header-cta:hover {
+      box-shadow: 0 0 26px var(--red-flame-glow);
+      transform: translateY(-1px);
+    }
+
+    .mobile-menu-trigger {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--gold-bright);
+      font-size: 1.6rem;
+      cursor: pointer;
+    }
+
+    /* HERO SECTION */
+    .hero-section {
+      position: relative;
+      min-height: 94vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 140px 20px 80px;
+      overflow: hidden;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 10;
+      max-width: 980px;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(8, 26, 20, 0.88);
+      border: 1px solid var(--border-gold);
+      padding: 7px 24px;
+      border-radius: 999px;
+      font-family: var(--font-bn);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--gold-bright);
+      margin-bottom: 24px;
+      backdrop-filter: blur(12px);
+    }
+
+    .hero-h1-anton {
+      font-family: var(--font-display);
+      font-size: clamp(3rem, 8vw, 6.2rem);
+      line-height: 1;
+      margin-bottom: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .hero-h2-bn {
+      font-size: clamp(2.4rem, 5.5vw, 4.4rem);
+      margin-bottom: 18px;
+      line-height: 1.2;
+    }
+
+    .hero-subtext {
+      font-size: clamp(1.15rem, 2.4vw, 1.65rem);
+      color: #e2e8f0;
+      max-width: 800px;
+      margin: 0 auto 36px;
+      text-shadow: 0 2px 18px rgba(0,0,0,0.95);
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 18px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 26px;
+    }
+
+    /* PILL BUTTONS */
+    .seal-btn {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      height: 56px;
+      padding: 0 34px;
+      border: 1px solid rgba(217, 56, 41, 0.65);
+      border-radius: 999px;
+      background: radial-gradient(ellipse at 50% 120%, rgba(217, 56, 41, 0.45), rgba(20, 6, 6, 0.95) 70%), rgba(8, 4, 4, 0.85);
+      color: #ffd9d5;
+      font-family: var(--font-sans);
+      font-size: 13.5px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.6), 0 14px 40px rgba(183, 28, 28, 0.35), inset 0 0 25px rgba(217, 56, 41, 0.2);
+      transition: var(--transition-smooth);
+      cursor: pointer;
+    }
+
+    .seal-btn:hover {
+      transform: translateY(-2px);
+      border-color: var(--red-flame-hover);
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.6), 0 18px 50px rgba(217, 56, 41, 0.65), inset 0 0 35px rgba(217, 56, 41, 0.4);
+      color: #ffffff;
+    }
+
+    .seal-btn-gold {
+      border: 1px solid rgba(212, 175, 55, 0.7);
+      background: radial-gradient(ellipse at 50% 120%, rgba(212, 175, 55, 0.45), rgba(24, 18, 6, 0.95) 70%), rgba(10, 8, 4, 0.88);
+      color: var(--gold-light);
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.6), 0 14px 40px rgba(212, 175, 55, 0.28), inset 0 0 25px rgba(212, 175, 55, 0.2);
+    }
+
+    .seal-btn-gold:hover {
+      border-color: var(--gold-bright);
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.6), 0 18px 50px rgba(212, 175, 55, 0.6), inset 0 0 35px rgba(212, 175, 55, 0.4);
+      color: #ffffff;
+    }
+
+    /* TRUST STRIP */
+    .trust-strip {
+      background: linear-gradient(90deg, rgba(5, 18, 14, 0.92) 0%, rgba(2, 8, 6, 0.98) 50%, rgba(5, 18, 14, 0.92) 100%);
+      border-top: 1px solid var(--border-gold);
+      border-bottom: 1px solid var(--border-gold);
+      padding: 28px 20px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    .icon-emblem-badge {
+      width: 50px;
+      height: 50px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+
+    .icon-emblem-gold {
+      background: radial-gradient(circle, #d4af37, #4a3c0e);
+      color: #fff;
+      box-shadow: 0 0 20px var(--gold-glow);
+    }
+
+    .icon-emblem-emerald {
+      background: radial-gradient(circle, #059669, #064e3b);
+      color: #fff;
+      box-shadow: 0 0 20px var(--emerald-glow);
+    }
+
+    .icon-emblem-crimson {
+      background: radial-gradient(circle, #dc2626, #7f1d1d);
+      color: #fff;
+      box-shadow: 0 0 20px rgba(220, 38, 38, 0.45);
+    }
+
+    .section-title-wrap {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .section-h2-anton {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      line-height: 1.1;
+      margin-bottom: 8px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .section-h3-bn {
+      font-size: clamp(1.6rem, 3.2vw, 2.4rem);
+    }
+
+    /* VORTEX OF SACRED MEMORIES */
+    .vortex-section {
+      padding: 95px 20px;
+      position: relative;
+      z-index: 10;
+      overflow: hidden;
+    }
+
+    .vortex-stage {
+      position: relative;
+      min-height: 580px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .vortex-center-monolith {
+      width: 295px;
+      height: 390px;
+      border-radius: 22px;
+      border: 2px solid var(--gold-bright);
+      overflow: hidden;
+      position: relative;
+      z-index: 5;
+      box-shadow: 0 0 50px rgba(212, 175, 55, 0.4), 0 20px 60px rgba(0, 0, 0, 0.95);
+      transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+      cursor: pointer;
+    }
+
+    .vortex-center-monolith img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .vortex-monolith-caption {
+      position: absolute;
+      inset: auto 0 0 0;
+      background: linear-gradient(0deg, rgba(0,0,0,0.96) 0%, transparent 100%);
+      padding: 24px 20px;
+      text-align: center;
+      font-family: var(--font-heading);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--gold-bright);
+      letter-spacing: 1.5px;
+    }
+
+    .floating-polaroid {
+      position: absolute;
+      width: 220px;
+      background: #ffffff;
+      padding: 10px 10px 22px;
+      border-radius: 6px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.85), 0 0 15px rgba(255, 255, 255, 0.2);
+      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), z-index 0.2s;
+      cursor: pointer;
+      z-index: 6;
+    }
+
+    .floating-polaroid img {
+      width: 100%;
+      height: 155px;
+      object-fit: cover;
+      border-radius: 3px;
+    }
+
+    .polaroid-caption {
+      color: #111111;
+      font-family: var(--font-sans);
+      font-size: 12px;
+      font-weight: 700;
+      margin-top: 8px;
+      text-align: center;
+      letter-spacing: 0.3px;
+    }
+
+    .floating-polaroid:hover {
+      transform: scale(1.18) rotate(0deg) !important;
+      z-index: 25 !important;
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.95), 0 0 35px var(--gold-glow);
+    }
+
+    .polaroid-1 { top: 30px; left: 8%; transform: rotate(-8deg); }
+    .polaroid-2 { top: 60px; right: 10%; transform: rotate(7deg); }
+    .polaroid-3 { bottom: 40px; left: 12%; transform: rotate(5deg); }
+    .polaroid-4 { bottom: 30px; right: 8%; transform: rotate(-9deg); }
+    .polaroid-5 { top: 40%; left: 2%; transform: rotate(-12deg); }
+    .polaroid-6 { top: 45%; right: 2%; transform: rotate(11deg); }
+
+    @media (max-width: 900px) {
+      .floating-polaroid {
+        position: static;
+        width: 100%;
+        max-width: 280px;
+        margin: 15px auto;
+        transform: none !important;
+      }
+      .vortex-stage {
+        flex-direction: column;
+        min-height: auto;
+      }
+    }
+
+    /* DUAL PACKAGES CARDS (STANDARD & DELUXE) */
+    .packages-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+
+    .package-card {
+      background: var(--bg-panel);
+      border: 1.5px solid var(--border-gold);
+      border-radius: 24px;
+      padding: 40px 32px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      backdrop-filter: blur(14px);
+      transition: var(--transition-smooth);
+    }
+
+    .package-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--gold-bright);
+      box-shadow: 0 25px 70px rgba(212, 175, 55, 0.25);
+    }
+
+    .package-card.deluxe {
+      border: 2px solid var(--gold-bright);
+      background: radial-gradient(circle at top right, rgba(212, 175, 55, 0.16), transparent 50%), var(--bg-panel);
+      box-shadow: 0 20px 60px rgba(212, 175, 55, 0.25), 0 0 30px rgba(0, 0, 0, 0.8);
+    }
+
+    .popular-ribbon {
+      position: absolute;
+      top: 25px;
+      right: -40px;
+      background: linear-gradient(135deg, #e53935, #8e0000);
+      color: #fff;
+      font-family: var(--font-sans);
+      font-weight: 800;
+      font-size: 11px;
+      letter-spacing: 1px;
+      padding: 6px 50px;
+      transform: rotate(45deg);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    }
+
+    .pkg-badge {
+      display: inline-block;
+      padding: 5px 16px;
+      border-radius: 999px;
+      background: rgba(16, 185, 129, 0.2);
+      border: 1px solid var(--emerald-accent);
+      color: #6ee7b7;
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .pkg-title {
+      font-size: 2.1rem;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+
+    .pkg-duration {
+      font-size: 1.15rem;
+      color: var(--gold-light);
+      margin-bottom: 15px;
+    }
+
+    .pkg-price-val {
+      font-family: var(--font-bn);
+      font-size: clamp(2.6rem, 5vw, 3.8rem);
+      font-weight: 800;
+      background: var(--gold-metallic);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 24px;
+      line-height: 1;
+    }
+
+    .pkg-inclusions-list {
+      list-style: none;
+      text-align: left;
+      margin: 25px 0 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .pkg-inclusions-list li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.05rem;
+      color: #e2e8f0;
+    }
+
+    .pkg-inclusions-list li i {
+      color: var(--emerald-accent);
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+
+    /* RED ADVANCE NOTICE BOX */
+    .advance-notice-box {
+      background: linear-gradient(135deg, rgba(69, 15, 11, 0.9), rgba(28, 8, 8, 0.95));
+      border: 1.5px solid var(--red-flame);
+      border-radius: 18px;
+      padding: 24px 30px;
+      max-width: 900px;
+      margin: 40px auto 0;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      box-shadow: 0 10px 30px rgba(217, 56, 41, 0.25);
+    }
+
+    .advance-notice-box i {
+      font-size: 2.2rem;
+      color: var(--red-flame);
+      flex-shrink: 0;
+    }
+
+    .advance-notice-box strong {
+      font-size: 1.25rem;
+      color: #ffffff;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .advance-notice-box p {
+      font-size: 1.05rem;
+      color: #ffd9d5;
+      margin: 0;
+    }
+
+    /* WHY US / FREE ZIYARAT */
+    .why-us-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      margin-top: 35px;
+    }
+
+    .why-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-glass);
+      border-radius: 20px;
+      padding: 35px 25px;
+      text-align: center;
+      transition: var(--transition-smooth);
+      backdrop-filter: blur(10px);
+    }
+
+    .why-card:hover {
+      border-color: var(--gold-bright);
+      transform: translateY(-6px);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.8);
+    }
+
+    .why-card.highlight {
+      border: 2px solid var(--gold-bright);
+      background: radial-gradient(circle at top center, rgba(212, 175, 55, 0.18), transparent 70%), var(--bg-panel);
+      box-shadow: 0 0 35px var(--gold-glow);
+    }
+
+    .why-icon {
+      width: 58px;
+      height: 58px;
+      border-radius: 16px;
+      margin: 0 auto 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+    }
+
+    /* ZIYARAT PLACES CARDS */
+    .ziyarat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 25px;
+    }
+
+    .ziyarat-card {
+      position: relative;
+      height: 370px;
+      border-radius: 22px;
+      overflow: hidden;
+      border: 1px solid var(--border-gold);
+      box-shadow: 0 15px 45px rgba(0, 0, 0, 0.75);
+      cursor: pointer;
+    }
+
+    .ziyarat-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .ziyarat-card:hover img {
+      transform: scale(1.1);
+    }
+
+    .ziyarat-shade {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 35%, rgba(2, 6, 4, 0.96) 88%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 24px;
+    }
+
+    .ziyarat-badge {
+      align-self: flex-start;
+      font-family: var(--font-sans);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      background: var(--red-flame);
+      color: #fff;
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 8px;
+    }
+
+    .ziyarat-label {
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.25;
+    }
+
+    .ziyarat-sublabel {
+      font-size: 0.98rem;
+      color: var(--gold-light);
+      margin-top: 5px;
+    }
+
+    /* ========================================================== */
+    /* 🔴 BOTTOM SECTION: STAGGERED 2-COLUMN FAQ CARDS           */
+    /* EXACT REPLICA OF THE SCREENSHOT (PURE BENGALI, NO LANG TOGGLES) */
+    /* ========================================================== */
+    .staggered-faq-section {
+      padding: 95px 20px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .staggered-faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 28px;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .staggered-col-right {
+      margin-top: 38px;
+    }
+
+    .staggered-card {
+      background: linear-gradient(145deg, rgba(28, 12, 12, 0.94) 0%, rgba(14, 8, 8, 0.98) 100%);
+      border: 1px solid rgba(217, 56, 41, 0.45);
+      border-radius: 20px;
+      padding: 16px 22px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+      transition: var(--transition-smooth);
+      position: relative;
+      user-select: none;
+    }
+
+    .staggered-card:hover {
+      transform: translateY(-4px) scale(1.02);
+      border-color: var(--red-flame-hover);
+      box-shadow: 0 15px 35px rgba(217, 56, 41, 0.4), inset 0 0 15px rgba(217, 56, 41, 0.2);
+    }
+
+    .faq-play-orb {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 35%, #ff5244 0%, #d82418 50%, #520d09 90%);
+      border: 2px solid rgba(255, 120, 110, 0.9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 1.05rem;
+      box-shadow: 0 0 25px var(--red-flame-glow), inset 0 0 10px rgba(255, 255, 255, 0.5);
+      flex-shrink: 0;
+      transition: transform 0.3s ease;
+    }
+
+    .staggered-card:hover .faq-play-orb {
+      transform: scale(1.12);
+      box-shadow: 0 0 35px rgba(255, 80, 70, 0.9);
+    }
+
+    .staggered-card-text {
+      font-family: var(--font-bn);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.35;
+      flex-grow: 1;
+    }
+
+    @media (max-width: 768px) {
+      .staggered-faq-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+      .staggered-col-right {
+        margin-top: 0;
+      }
+      .staggered-card {
+        padding: 14px 16px;
+      }
+    }
+
+    /* 🌟 UNIVERSAL HIGH-END POPUP MODAL ARCHITECTURE */
+    .page-modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(1, 4, 3, 0.88);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      z-index: 1050;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.35s ease, visibility 0.35s ease;
+    }
+
+    .page-modal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .page-modal-container {
+      background: linear-gradient(175deg, #091a15 0%, #030807 100%);
+      border: 2px solid var(--gold-bright);
+      border-radius: 26px;
+      max-width: 980px;
+      width: 100%;
+      max-height: 88vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 25px 80px rgba(0, 0, 0, 0.95), 0 0 45px var(--gold-glow);
+      transform: scale(0.92) translateY(20px);
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+    }
+
+    .page-modal-overlay.active .page-modal-container {
+      transform: scale(1) translateY(0);
+    }
+
+    .page-modal-header {
+      padding: 22px 32px;
+      border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(4, 14, 11, 0.96);
+      position: relative;
+      z-index: 5;
+    }
+
+    .modal-tag {
+      font-family: var(--font-sans);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold-bright);
+      margin-bottom: 4px;
+    }
+
+    .modal-title {
+      font-family: var(--font-bn);
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.2;
+    }
+
+    .modal-close-btn {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--border-gold);
+      color: #ffffff;
+      font-size: 1.3rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition-smooth);
+      flex-shrink: 0;
+    }
+
+    .modal-close-btn:hover {
+      background: var(--red-flame);
+      border-color: var(--red-flame);
+      transform: rotate(90deg) scale(1.08);
+      box-shadow: 0 0 20px var(--red-flame-glow);
+    }
+
+    .page-modal-body {
+      padding: 35px 32px;
+      overflow-y: auto;
+      scroll-behavior: smooth;
+    }
+
+    .page-modal-body::-webkit-scrollbar {
+      width: 8px;
+    }
+    .page-modal-body::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .page-modal-body::-webkit-scrollbar-thumb {
+      background: var(--gold-dark);
+      border-radius: 4px;
+    }
+
+    /* GALLERY TABS */
+    .gallery-filter-tabs {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    .gallery-tab-btn {
+      background: rgba(8, 20, 16, 0.7);
+      border: 1px solid var(--border-gold);
+      color: var(--text-muted);
+      font-family: var(--font-bn);
+      font-size: 1.05rem;
+      font-weight: 700;
+      padding: 8px 24px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: var(--transition-smooth);
+    }
+
+    .gallery-tab-btn.active, .gallery-tab-btn:hover {
+      background: var(--gold-bright);
+      color: #040806;
+      box-shadow: 0 0 15px var(--gold-glow);
+    }
+
+    /* BOOKING CALCULATOR PANEL */
+    .booking-calculator-panel {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-gold);
+      border-radius: 24px;
+      padding: 35px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(14px);
+    }
+
+    .form-stepper {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(4, 14, 11, 0.85);
+      border: 1px solid var(--border-emerald);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .step-btn {
+      width: 44px;
+      height: 44px;
+      background: none;
+      border: none;
+      color: var(--gold-bright);
+      font-size: 1.3rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+    }
+
+    .step-btn:hover {
+      background: rgba(212, 175, 55, 0.2);
+    }
+
+    .stepper-val {
+      width: 50px;
+      text-align: center;
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: #fff;
+    }
+
+    .wa-preview-box {
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px dashed var(--emerald-accent);
+      border-radius: 14px;
+      padding: 16px;
+      margin: 20px 0;
+      font-family: var(--font-bn);
+      font-size: 1.05rem;
+      color: #a7f3d0;
+      white-space: pre-line;
+      line-height: 1.6;
+    }
+
+    /* FINAL CTA BANNER */
+    .final-cta-section {
+      background: radial-gradient(circle at center, rgba(217, 56, 41, 0.22) 0%, rgba(2, 6, 4, 0.98) 75%);
+      text-align: center;
+      padding: 85px 20px;
+      border-top: 1px solid var(--border-gold);
+      border-bottom: 1px solid var(--border-gold);
+      position: relative;
+      z-index: 10;
+    }
+
+    /* FLOATING BUTTONS */
+    .floating-btns-wrap {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      z-index: 99;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .floating-circle-btn {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      text-decoration: none;
+      color: #ffffff;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+      transition: var(--transition-smooth);
+    }
+
+    .floating-circle-btn.whatsapp {
+      background: #25d366;
+      box-shadow: 0 8px 30px rgba(37, 211, 102, 0.55);
+    }
+
+    .floating-circle-btn.facebook {
+      background: #1877f2;
+      box-shadow: 0 8px 30px rgba(24, 119, 242, 0.55);
+    }
+
+    .floating-circle-btn:hover {
+      transform: scale(1.14);
+    }
+
+    /* MOBILE DRAWER */
+    .mobile-drawer-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(8px);
+      z-index: 998;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.35s ease, visibility 0.35s ease;
+    }
+
+    .mobile-drawer-backdrop.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .mobile-drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: min(340px, 86vw);
+      background: #040907;
+      border-left: 1px solid var(--border-gold);
+      z-index: 999;
+      transform: translateX(100%);
+      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+      overflow-y: auto;
+      box-shadow: -15px 0 45px rgba(0, 0, 0, 0.95);
+    }
+
+    .mobile-drawer.active {
+      transform: translateX(0);
+    }
+
+    .mobile-drawer-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+    }
+
+    .mobile-drawer-close {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--border-emerald);
+      color: #fff;
+      font-size: 1.2rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition-smooth);
+    }
+
+    .mobile-drawer-close:hover {
+      background: var(--red-flame);
+      border-color: var(--red-flame);
+      transform: rotate(90deg);
+    }
+
+    .mobile-nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+
+    .mobile-nav-item {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 12px 16px;
+      border-radius: 12px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 600;
+      transition: var(--transition-smooth);
+      border: 1px solid transparent;
+      cursor: pointer;
+    }
+
+    .mobile-nav-item:hover, .mobile-nav-item.active {
+      background: rgba(212, 175, 55, 0.12);
+      border-color: var(--border-gold);
+      color: var(--gold-bright);
+    }
+
+    .mobile-nav-item i {
+      width: 22px;
+      color: var(--gold-bright);
+      font-size: 1.15rem;
+    }
+
+    /* FOOTER */
+    footer.site-footer {
+      background: #020403;
+      border-top: 1px solid var(--border-gold);
+      padding: 65px 20px 30px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 880px) {
+      .footer-grid { grid-template-columns: 1fr; }
+      nav.desktop-nav { display: none; }
+      .mobile-menu-trigger { display: block; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Parallax Universe & Lightning -->
+  <div class="site-universe-bg"></div>
+  <div class="site-universe-backdrop" id="parallax-bg"></div>
+  <div class="cinematic-vignette"></div>
+
+  <canvas id="lightning-canvas"></canvas>
+  <div id="lightning-sky-flash"></div>
+
+  <!-- Background Talbiyah Audio -->
+  <audio id="talbiyah-audio" loop preload="auto">
+    <source src="assets/talbiyah.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- 🌐 GLOBAL ELEMENT 1: ENTRY OVERLAY GATE -->
+  <div id="entry-overlay">
+    <div class="entry-bg-kaaba"></div>
+    <div class="entry-content">
+      <div class="entry-tag">AL NOOR TOUR &amp; TRAVELS • HAJJ &amp; UMRAH</div>
+      <h1 class="entry-title">
+        <span class="title-white">THE SACRED</span> <span class="title-crimson">JOURNEY.</span>
+      </h1>
+      <h2 class="entry-arabic-title">লাব্বাইক আল্লাহুম্মা লাব্বাইক</h2>
+      <p class="entry-subtitle">"তালবিয়া শুনে পবিত্র কাবা শরিফের আত্মিক সফরে প্রবেশ করুন"</p>
+      
+      <button class="amulet-btn" id="enter-btn">
+        <span class="amulet-ring"></span>
+        <span class="amulet-ring r2"></span>
+        <i class="fa-solid fa-volume-high"></i>
+        <span>ENTER WITH SOUND</span>
+      </button>
+
+      <div style="margin-top: 14px;">
+        <button id="enter-muted-btn" style="background: none; border: none; color: var(--text-dim); font-family: var(--font-bn); font-size: 15px; font-weight: 600; cursor: pointer; text-decoration: underline; padding: 8px 16px;">
+          <i class="fa-solid fa-volume-xmark"></i> <span>নিঃশব্দে প্রবেশ করুন (Enter Muted)</span>
+        </button>
+      </div>
+      
+      <p style="margin-top: 25px; font-family: var(--font-bn); font-size: 0.95rem; color: var(--text-dim);">
+        <i class="fa-solid fa-bolt" style="color: var(--red-flame);"></i> ক্লিকে তালবিয়া অডিও এবং সিনেমাটিক দৃশ্য চালু হবে
+      </p>
+    </div>
+  </div>
+
+  <!-- 🌐 GLOBAL ELEMENT 2: STICKY HEADER (NO LANGUAGE SWITCHER) -->
+  <header class="site-header">
+    <a href="index.html" class="brand-wrap">
+      <div class="brand-emblem">
+        <i class="fa-solid fa-kaaba"></i>
+      </div>
+      <div class="brand-text-block">
+        <span class="brand-bn-title">আল নূর ট্যুর অ্যান্ড ট্রাভেলস</span>
+        <span class="brand-sub-1">AL NOOR TOUR &amp; TRAVELS</span>
+        <span class="brand-sub-2">HAJJ &amp; UMRAH • RAJARHAT, KOLKATA</span>
+      </div>
+    </a>
+
+    <!-- Desktop Navigation -->
+    <nav class="desktop-nav">
+      <a href="index.html" class="active">হোম</a>
+      <a href="umrah.html">উমরাহ প্যাকেজ</a>
+      <a href="hajj.html">হজ্জ প্যাকেজ</a>
+      <a href="about.html">আমাদের সম্পর্কে</a>
+      <a href="gallery.html">গ্যালারি</a>
+      <a href="contact.html">যোগাযোগ</a>
+    </nav>
+
+    <div class="header-actions">
+      <!-- Sound Toggle -->
+      <button class="sound-toggle-btn" id="sound-toggle" title="তালবিয়া অডিও অন/অফ">
+        <span class="eq-bars">
+          <i></i><i></i><i></i>
+        </span>
+        <span id="sound-label">TALBIYAH</span>
+      </button>
+
+      <!-- Booking CTA -->
+      <a href="contact.html" class="btn-header-cta">বুকিং করুন</a>
+      
+      <button class="mobile-menu-trigger" id="mobile-toggle" onclick="toggleMobileMenu(true)" aria-label="Toggle mobile menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- 📱 MOBILE NAVIGATION DRAWER -->
+  <div id="mobile-drawer-backdrop" class="mobile-drawer-backdrop" onclick="toggleMobileMenu(false)"></div>
+  <aside id="mobile-drawer" class="mobile-drawer" aria-label="Mobile navigation">
+    <div class="mobile-drawer-header">
+      <div class="brand-wrap">
+        <div class="brand-emblem" style="width: 40px; height: 40px; font-size: 1.2rem;">
+          <i class="fa-solid fa-kaaba"></i>
+        </div>
+        <div class="brand-text-block">
+          <span class="brand-bn-title" style="font-size: 1.15rem;">আল নূর ট্যুরস</span>
+          <span class="brand-sub-1" style="font-size: 9px;">AL NOOR TOUR &amp; TRAVELS</span>
+        </div>
+      </div>
+      <button class="mobile-drawer-close" onclick="toggleMobileMenu(false)" aria-label="Close menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Links -->
+    <nav class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-item active">
+        <i class="fa-solid fa-house"></i> <span>হোম</span>
+      </a>
+      <a href="umrah.html" class="mobile-nav-item">
+        <i class="fa-solid fa-kaaba"></i> <span>উমরাহ প্যাকেজ</span>
+      </a>
+      <a href="hajj.html" class="mobile-nav-item">
+        <i class="fa-solid fa-mosque"></i> <span>হজ্জ প্যাকেজ</span>
+      </a>
+      <a href="about.html" class="mobile-nav-item">
+        <i class="fa-solid fa-users"></i> <span>আমাদের সম্পর্কে</span>
+      </a>
+      <a href="gallery.html" class="mobile-nav-item">
+        <i class="fa-solid fa-images"></i> <span>গ্যালারি</span>
+      </a>
+      <a href="contact.html" class="mobile-nav-item">
+        <i class="fa-solid fa-phone"></i> <span>যোগাযোগ</span>
+      </a>
+    </nav>
+
+    <!-- Quick Call & WhatsApp CTAs inside Drawer -->
+    <div style="margin-top: auto; padding-top: 15px;">
+      <a href="contact.html" class="seal-btn seal-btn-gold" style="width: 100%; justify-content: center; margin-bottom: 10px;">
+        <i class="fa-solid fa-calendar-check"></i> <span>বুকিং করুন</span>
+      </a>
+      <a href="https://wa.me/918282912691?text=আসসালামু%20আলাইকুম%2C%20উমরাহ%20প্যাকেজ%20সম্পর্কে%20জানতে%20চাই" target="_blank" class="seal-btn" style="width: 100%; justify-content: center;">
+        <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp চ্যাট</span>
+      </a>
+      <div style="text-align: center; margin-top: 15px; font-family: var(--font-bn); font-size: 13px; color: var(--text-dim);">
+        হটলাইন: +91 82829 12691 (রাজারহাট, কলকাতা)
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========================================================== -->
+  <!-- 🏠 MAIN HOMEPAGE CONTENT                                   -->
+  <!-- ========================================================== -->
+  <main id="main-content">
+
+    <!-- SECTION 1: HERO -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <i class="fa-solid fa-star-and-crescent" style="color: var(--gold-bright);"></i>
+          <span>পবিত্র ভূমির ডাকে সাড়া দিন…</span>
+        </div>
+
+        <h1 class="hero-h1-anton">
+          <span class="title-white">ANSWER THE</span> <span class="title-crimson">CALL.</span>
+        </h1>
+        <h2 class="hero-h2-bn crisp-gold-bn">আল্লাহর ঘরে একটি পবিত্র সফর</h2>
+        <p class="hero-subtext">
+          "সাচ্ছন্দ্য, যত্ন ও বিশ্বাসের সাথে উমরাহ সফর — আপনার সফর, আমাদের দোয়া"
+        </p>
+
+        <div class="hero-buttons">
+          <a href="contact.html" class="seal-btn seal-btn-gold">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>এখনই বুকিং করুন</span>
+          </a>
+          <a href="umrah.html" class="seal-btn">
+            <i class="fa-solid fa-box-open"></i>
+            <span>প্যাকেজ দেখুন</span>
+          </a>
+        </div>
+
+        <div style="font-family: var(--font-bn); font-size: 0.95rem; font-weight: 600; color: var(--gold-light); display: flex; align-items: center; justify-content: center; gap: 8px;">
+          <i class="fa-solid fa-volume-high" style="color: var(--red-flame);"></i>
+          <span>তালবিয়া বাজছে · বন্ধ করতে উপরের স্পিকার আইকনে চাপুন</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: TRUST STRIP -->
+    <div class="trust-strip">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <div class="icon-emblem-badge icon-emblem-gold">
+            <i class="fa-solid fa-couch"></i>
+          </div>
+          <div>
+            <strong style="color: var(--gold-bright);">সাচ্ছন্দ্য</strong>
+            <p style="font-size: 0.95rem; color: var(--text-muted);">আরামদায়ক ও সুশৃঙ্খল সফর</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="icon-emblem-badge icon-emblem-emerald">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+          </div>
+          <div>
+            <strong style="color: #6ee7b7;">যত্ন</strong>
+            <p style="font-size: 0.95rem; color: var(--text-muted);">প্রতিটি হাজির পাশে সার্বক্ষণিক সঙ্গ</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="icon-emblem-badge icon-emblem-crimson">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <div>
+            <strong style="color: #fca5a5;">বিশ্বাস</strong>
+            <p style="font-size: 0.95rem; color: var(--text-muted);">কথা ও কাজে শতভাগ সততা</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 3: VORTEX OF SACRED MEMORIES -->
+    <section class="vortex-section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="hero-eyebrow" style="margin-bottom: 12px;">PARALLAX VORTEX OF FAITH</div>
+          <h2 class="section-h2-anton">
+            <span class="title-white">MOMENTS</span> <span class="title-crimson">IN ORBIT.</span>
+          </h2>
+          <h3 class="section-h3-bn crisp-gold-bn">ঈমানের ঘূর্ণায়মান সোনালী মুহূর্তসমূহ</h3>
+          <p style="font-size: 1.15rem; color: var(--text-muted); margin-top: 8px;">"হাজিদের পদচিহ্ন, অশ্রু ও পবিত্র কাবা শরিফের চিরন্তন সান্নিধ্য"</p>
+        </div>
+
+        <!-- 3D Orbiting Stage with Interactive Floating Polaroids -->
+        <div class="vortex-stage" id="vortex-container">
+          
+          <!-- Central Monolith (The Holy Sanctuary) -->
+          <div class="vortex-center-monolith" onclick="openPageModal('gallery')">
+            <img src="assets/kaaba-grand.jpg" alt="Holy Kaaba at night">
+            <div class="vortex-monolith-caption">KA'ABAH AL-MUSHARRAFAH</div>
+          </div>
+
+          <!-- Polaroid 1 -->
+          <div class="floating-polaroid polaroid-1" onclick="openPageModal('gallery')">
+            <img src="assets/pilgrim-duaa.jpg" alt="Pilgrim Duaa">
+            <div class="polaroid-caption">চোখের জলে রোনাজারি • মক্কা শরিফ</div>
+          </div>
+
+          <!-- Polaroid 2 -->
+          <div class="floating-polaroid polaroid-2" onclick="openPageModal('gallery')">
+            <img src="assets/madinah-prophet-mosque.jpg" alt="Madinah Green Dome">
+            <div class="polaroid-caption">সবুজ গম্বুজ ও সালাম পেশ • মদিনা</div>
+          </div>
+
+          <!-- Polaroid 3 -->
+          <div class="floating-polaroid polaroid-3" onclick="openPageModal('gallery')">
+            <img src="assets/makkah-courtyard.jpg" alt="Makkah Courtyard">
+            <div class="polaroid-caption">হারাম চত্বরে কাফেলা • মক্কা শরিফ</div>
+          </div>
+
+          <!-- Polaroid 4 -->
+          <div class="floating-polaroid polaroid-4" onclick="openPageModal('gallery')">
+            <img src="assets/uhud-mountain.jpg" alt="Uhud Mountain">
+            <div class="polaroid-caption">ঐতিহাসিক উহুদ পাহাড় জিয়ারত</div>
+          </div>
+
+          <!-- Polaroid 5 -->
+          <div class="floating-polaroid polaroid-5" onclick="openPageModal('gallery')">
+            <img src="assets/arafat-sunset.jpg" alt="Mount Arafat">
+            <div class="polaroid-caption">ময়দানে আরাফাত ও জাবালে রহমত</div>
+          </div>
+
+          <!-- Polaroid 6 -->
+          <div class="floating-polaroid polaroid-6" onclick="openPageModal('gallery')">
+            <img src="assets/kaaba-night.jpg" alt="Night Tawaf">
+            <div class="polaroid-caption">নিশীথ রাতে তাওয়াফের নূর</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: PACKAGES (STANDARD & DELUXE) -->
+    <section class="content-section" style="padding: 75px 20px;">
+      <div class="container">
+        <div class="section-title-wrap">
+          <h2 class="section-h2-anton">
+            <span class="title-white">CHOOSE YOUR</span> <span class="title-gold">SACRED PACKAGE.</span>
+          </h2>
+          <h3 class="section-h3-bn crisp-gold-bn">উমরাহ প্যাকেজ — বুকিং চলছে</h3>
+          <p style="font-size: 1.15rem; color: var(--text-muted); margin-top: 6px;">১৫-১৬ দিনের পবিত্র সফর • কলকাতা থেকে যাত্রা</p>
+        </div>
+
+        <div class="packages-grid">
+          <!-- Standard Package -->
+          <div class="package-card">
+            <span class="pkg-badge">উমরাহ বুকিং চলছে</span>
+            <h3 class="pkg-title">স্ট্যান্ডার্ড প্যাকেজ</h3>
+            <div class="pkg-duration">১৫-১৬ দিনের পবিত্র সফর</div>
+            <div class="pkg-price-val">৳৯৫,০০০/-</div>
+
+            <ul class="pkg-inclusions-list">
+              <li><i class="fa-solid fa-circle-check"></i> রাউন্ড-ট্রিপ বিমান টিকিট</li>
+              <li><i class="fa-solid fa-circle-check"></i> ২ সেট প্রিমিয়াম উমরাহ কিট</li>
+              <li><i class="fa-solid fa-circle-check"></i> অভিজ্ঞ আলেম ও মোয়াল্লিম গাইড</li>
+              <li><i class="fa-solid fa-circle-check"></i> উমরাহ ভিসা ও হেলথ ইন্স্যুরেন্স</li>
+              <li><i class="fa-solid fa-circle-check"></i> প্রতিদিন তিন বেলা তৃপ্তিকর দেশীয় খাবার</li>
+              <li><i class="fa-solid fa-circle-check"></i> সম্পূর্ণ অভ্যন্তরীণ এসি বাসে যাতায়াত</li>
+              <li><i class="fa-solid fa-circle-check"></i> সৌদি সিম কার্ড সুবিধা</li>
+              <li><i class="fa-solid fa-circle-check"></i> ৫ লিটার জমজম পানি উপহার</li>
+              <li><i class="fa-solid fa-circle-check"></i> মক্কা-মদিনায় নিকটবর্তী হোটেলে থাকা</li>
+              <li><i class="fa-solid fa-circle-check"></i> সুস্বাদু দেশীয় বাঙালি খাবার</li>
+            </ul>
+
+            <a href="contact.html" class="seal-btn" style="width: 100%; justify-content: center;">
+              <i class="fa-solid fa-calendar-check"></i> <span>এখনই বুক করুন</span>
+            </a>
+          </div>
+
+          <!-- Deluxe Package (Most Popular) -->
+          <div class="package-card deluxe">
+            <div class="popular-ribbon">সবচেয়ে জনপ্রিয়</div>
+            <span class="pkg-badge" style="background: rgba(212, 175, 55, 0.2); border-color: var(--gold-bright); color: var(--gold-bright);">প্রিমিয়াম কাফেলা</span>
+            <h3 class="pkg-title">ডিলাক্স প্যাকেজ</h3>
+            <div class="pkg-duration">১৫-১৬ দিনের পবিত্র সফর</div>
+            <div class="pkg-price-val">৳১২০,০০০/-</div>
+
+            <ul class="pkg-inclusions-list">
+              <li><i class="fa-solid fa-circle-check" style="color: var(--gold-bright);"></i> রাউন্ড-ট্রিপ আন্তর্জাতিক বিমান টিকিট</li>
+              <li><i class="fa-solid fa-circle-check" style="color: var(--gold-bright);"></i> ২ সেট স্পেশাল প্রিমিয়াম উমরাহ কিট</li>
+              <li><i class="fa-solid fa-circle-check" style="color: var(--gold-bright);"></i> বিজ্ঞ আলেম ও ব্যক্তিগত গ্রুপ লিডার</li>
+              <li><i class="fa-solid fa-circle-check" style="color: var(--gold-bright);"></i> এক্সপ্রেস উমরাহ ভিসা ও ফুল ইন্স্যুরেন্স</li>
+              <li><i class="fa-solid fa-circle-check" style="color: var(--gold-bright);"></i> প্রতিদিন ৩ বেলা বিশেষ পুষ্টিকর বুফে খাবার</li>
+              <li><i class="fa-solid fa-circle-check" style="color: var(--gold-bright);"></i> লাক্সারি ভিআইপি এসি বাসে যাতায়াত</li>
+              <li><i class="fa-solid fa-circle-check" style="color: var(--gold-bright);"></i> ডাটা প্যাকসহ সৌদি সিম কার্ড</li>
+              <li><i class="fa-solid fa-circle-check" style="color: var(--gold-bright);"></i> ৫ লিটার সিল্ড জমজম পানি</li>
+              <li><i class="fa-solid fa-circle-check" style="color: var(--gold-bright);"></i> <strong>মক্কা ও মদিনায় লাক্সারি প্রিমিয়াম হোটেলে থাকা</strong></li>
+              <li><i class="fa-solid fa-circle-check" style="color: var(--gold-bright);"></i> <strong>বিশেষ যত্ন ও অতিরিক্ত সুযোগ-সুবিধা</strong></li>
+            </ul>
+
+            <a href="contact.html" class="seal-btn seal-btn-gold" style="width: 100%; justify-content: center;">
+              <i class="fa-solid fa-calendar-check"></i> <span>এখনই বুক করুন</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- RED ADVANCE NOTICE BOX -->
+        <div class="advance-notice-box">
+          <i class="fa-solid fa-triangle-exclamation"></i>
+          <div>
+            <strong>গুরুত্বপূর্ণ বুকিং নিয়মাবলি</strong>
+            <p>বুকিং নিশ্চিত করতে <strong>৳১০,০০০/- অগ্রিম</strong> প্রদান করতে হবে। মূল পাসপোর্ট জমা রাখা বাধ্যতামূলক। ভিসা অনুমোদনের পর বাকি টাকা পরিশোধ করতে হবে।</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: WHY US (4 CARDS + FREE ZIYARAT HIGHLIGHT) -->
+    <section class="content-section" style="padding: 70px 20px; background: rgba(3, 10, 8, 0.75);">
+      <div class="container">
+        <div class="section-title-wrap">
+          <h2 class="section-h2-anton">
+            <span class="title-white">YOUR JOURNEY.</span> <span class="title-crimson">OUR DUA.</span>
+          </h2>
+          <h3 class="section-h3-bn crisp-gold-bn">আপনার সফর, আমাদের আন্তরিক দোয়া</h3>
+          <p style="font-size: 1.15rem; color: var(--text-muted); margin-top: 6px;">আল নূর ট্যুর অ্যান্ড ট্রাভেলসের সাথে প্রতিটি পদক্ষেপে নিশ্চিন্ত থাকুন</p>
+        </div>
+
+        <div class="why-us-grid">
+          <!-- Card 1 -->
+          <div class="why-card">
+            <div class="why-icon icon-emblem-gold"><i class="fa-solid fa-person-chalkboard"></i></div>
+            <h4 style="font-size: 1.35rem; font-weight: 800; color: #fff; margin-bottom: 8px;">অভিজ্ঞ গাইডের সহায়তা</h4>
+            <p style="color: var(--text-muted);">বিজ্ঞ আলেম দ্বারা প্রতিটি রুকন ও দোয়ার সার্বক্ষণিক আমল শিক্ষা।</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="why-card">
+            <div class="why-icon icon-emblem-emerald"><i class="fa-solid fa-utensils"></i></div>
+            <h4 style="font-size: 1.35rem; font-weight: 800; color: #fff; margin-bottom: 8px;">বাংলা খাবারের ব্যবস্থা</h4>
+            <p style="color: var(--text-muted);">বাঙালি বাবুর্চি দ্বারা প্রতিদিন দেশীয় স্বাদে তিন বেলা তৃপ্তিকর আহার।</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="why-card">
+            <div class="why-icon icon-emblem-crimson"><i class="fa-solid fa-sim-card"></i></div>
+            <h4 style="font-size: 1.35rem; font-weight: 800; color: #fff; margin-bottom: 8px;">সৌদি সিম + জমজম পানি</h4>
+            <p style="color: var(--text-muted);">পরিবারের সাথে যোগাযোগের জন্য সিম কার্ড ও ফেরার সময় ৫ লিটার জমজম পানি।</p>
+          </div>
+
+          <!-- Card 4 (HIGHLIGHTED IN GOLD: FREE TAIF & BADR) -->
+          <div class="why-card highlight">
+            <div class="why-icon" style="background: radial-gradient(circle, #ffd700, #96700c); color: #040806; box-shadow: 0 0 25px var(--gold-glow);"><i class="fa-solid fa-gift"></i></div>
+            <h4 style="font-size: 1.45rem; font-weight: 800; color: var(--gold-bright); margin-bottom: 8px;">তায়িফ ও বদর জিয়ারত ফ্রি</h4>
+            <p style="color: #ffffff; font-weight: 600;">সম্পূর্ণ জিয়ারত একদম ফ্রি! এটি একটি আধ্যাত্মিক সফর, যা সারা জীবন মনে থাকবে।</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: ZIYARAT PLACES -->
+    <section class="content-section" style="padding: 75px 20px;">
+      <div class="container">
+        <div class="section-title-wrap">
+          <h2 class="section-h2-anton">
+            <span class="title-white">WALK WHERE</span> <span class="title-gold">HISTORY WALKED.</span>
+          </h2>
+          <h3 class="section-h3-bn crisp-gold-bn">যেখানে হেঁটেছেন প্রিয় নবীজি (সা.) — সেখানে আপনিও</h3>
+        </div>
+
+        <div class="ziyarat-grid">
+          <!-- Card 1: Holy Kaaba -->
+          <div class="ziyarat-card" onclick="openPageModal('gallery')">
+            <img src="assets/kaaba-grand.jpg" alt="পবিত্র কাবা শরীফ - মক্কা মুকাররমা">
+            <div class="ziyarat-shade">
+              <span class="ziyarat-badge">HOLY MAKKAH</span>
+              <div class="ziyarat-label">পবিত্র কাবা শরীফ</div>
+              <div class="ziyarat-sublabel">মক্কা মুকাররমা • বায়তুল্লাহর তাওয়াফ ও নূর</div>
+            </div>
+          </div>
+
+          <!-- Card 2: Prophet's Mosque & Green Dome -->
+          <div class="ziyarat-card" onclick="openPageModal('gallery')">
+            <img src="assets/madinah-prophet-mosque.jpg" alt="মসজিদে নববী ও রওজা শরীফ">
+            <div class="ziyarat-shade">
+              <span class="ziyarat-badge" style="background: #059669;">MADINAH MUNAWWARAH</span>
+              <div class="ziyarat-label">মসজিদে নববী ও রওজা শরীফ</div>
+              <div class="ziyarat-sublabel">মদিনা মুনাওয়ারা • রহমতের সবুজ গম্বুজ ও রিয়াজুল জান্নাহ</div>
+            </div>
+          </div>
+
+          <!-- Card 3: Historic Mount Uhud -->
+          <div class="ziyarat-card" onclick="openPageModal('gallery')">
+            <img src="assets/uhud-mountain.jpg" alt="ঐতিহাসিক ওহুদ ময়দান ও পর্বত">
+            <div class="ziyarat-shade">
+              <span class="ziyarat-badge" style="background: #ea580c;">HISTORIC BATTLEFIELD</span>
+              <div class="ziyarat-label">ঐতিহাসিক ওহুদ ময়দান</div>
+              <div class="ziyarat-sublabel">মদিনা • শুহাদায়ে উহুদের পবিত্র স্মৃতিবিজড়িত পর্বত</div>
+            </div>
+          </div>
+
+          <!-- Card 4: Grand Mosque Courtyard & Clock Tower -->
+          <div class="ziyarat-card" onclick="openPageModal('gallery')">
+            <img src="assets/makkah-courtyard.jpg" alt="হারাম শরীফ চত্বর ও ক্লক টাওয়ার">
+            <div class="ziyarat-shade">
+              <span class="ziyarat-badge" style="background: #7c3aed;">MAKKAH TOWER</span>
+              <div class="ziyarat-label">হারাম শরীফ চত্বর ও ক্লক টাওয়ার</div>
+              <div class="ziyarat-sublabel">মক্কা মুকাররমা • সুবিশাল উন্মুক্ত সাহন ও মিনার</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================== -->
+    <!-- 🔴 SECTION 7: BOTTOM SECTION (STAGGERED 2-COLUMN FAQ CARDS) -->
+    <!-- EXACT REPLICA OF SCREENSHOT WITH GLOWING PLAY BUTTONS       -->
+    <!-- ========================================================== -->
+    <section class="staggered-faq-section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="hero-eyebrow" style="margin-bottom: 12px;">FREQUENTLY ASKED QUESTIONS</div>
+          <h2 class="section-h2-anton">
+            <span class="title-white">CLEAR GUIDANCE.</span> <span class="title-crimson">EVERY ANSWER.</span>
+          </h2>
+          <h3 class="section-h3-bn crisp-gold-bn">আপনার প্রতিটি প্রশ্নের স্পষ্ট সমাধান</h3>
+          <p style="font-size: 1.15rem; color: var(--text-muted); margin-top: 8px;">যেকোনো কার্ডে ক্লিক করলেই পূর্ণাঙ্গ তথ্য পপ-আপ আকারে উন্মোচিত হবে</p>
+        </div>
+
+        <!-- 2 Columns with Offset Staggering -->
+        <div class="staggered-faq-grid">
+          
+          <!-- LEFT COLUMN (3 Cards) -->
+          <div class="staggered-col-left">
+            <!-- Card 1 -->
+            <div class="staggered-card" onclick="openFaqModal(1)">
+              <div class="faq-play-orb"><i class="fa-solid fa-play"></i></div>
+              <div class="staggered-card-text">প্যাকেজে কী কী সুযোগ-সুবিধা অন্তর্ভুক্ত?</div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="staggered-card" onclick="openFaqModal(2)">
+              <div class="faq-play-orb"><i class="fa-solid fa-play"></i></div>
+              <div class="staggered-card-text">বুকিংয়ের জন্য কত অগ্রিম দিতে হবে?</div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="staggered-card" onclick="openFaqModal(3)">
+              <div class="faq-play-orb"><i class="fa-solid fa-play"></i></div>
+              <div class="staggered-card-text">পাসপোর্ট কি লাগবে ও কী ডকুমেন্টস প্রয়োজন?</div>
+            </div>
+          </div>
+
+          <!-- RIGHT COLUMN (3 Cards, Offset Downwards) -->
+          <div class="staggered-col-right">
+            <!-- Card 4 -->
+            <div class="staggered-card" onclick="openFaqModal(4)">
+              <div class="faq-play-orb"><i class="fa-solid fa-play"></i></div>
+              <div class="staggered-card-text">সফর কতদিনের ও ফ্লাইট কোথা থেকে ছাড়বে?</div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="staggered-card" onclick="openFaqModal(5)">
+              <div class="faq-play-orb"><i class="fa-solid fa-play"></i></div>
+              <div class="staggered-card-text">মহিলারা কি মাহরামসহ যেতে পারবেন?</div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="staggered-card" onclick="openFaqModal(6)">
+              <div class="faq-play-orb"><i class="fa-solid fa-play"></i></div>
+              <div class="staggered-card-text">জিয়ারতে কোথায় নিয়ে যাওয়া হয়?</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: FINAL CTA -->
+    <div class="final-cta-section">
+      <div class="container">
+        <h2 class="hero-h1-anton">
+          <span class="title-white">THE DOORS ARE</span> <span class="title-crimson">OPEN.</span>
+        </h2>
+        <h3 class="section-h3-bn crisp-gold-bn" style="margin: 15px 0 35px;">
+          উমরাহ বুকিং চলছে — আজই যোগাযোগ করে আপনার সিট নিশ্চিত করুন
+        </h3>
+        <div style="display: flex; gap: 18px; justify-content: center; flex-wrap: wrap;">
+          <a href="tel:+918282912691" class="seal-btn seal-btn-gold">
+            <i class="fa-solid fa-phone"></i> +91 82829 12691
+          </a>
+          <a href="https://wa.me/918282912691?text=আসসালামু%20আলাইকুম%2C%20উমরাহ%20প্যাকেজ%20সম্পর্কে%20জানতে%20চাই" target="_blank" class="seal-btn seal-btn-gold">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp চ্যাট
+          </a>
+          <a href="https://www.facebook.com/alnurtourandtravels" target="_blank" class="seal-btn">
+            <i class="fa-brands fa-facebook"></i> Facebook পেজ
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- 🌐 GLOBAL FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div style="font-family: var(--font-bn); font-size: 1.8rem; font-weight: 800; color: var(--gold-bright); margin-bottom: 2px;">
+          আল নূর ট্যুর অ্যান্ড ট্রাভেলস
+        </div>
+        <div style="font-family: var(--font-sans); font-size: 11px; font-weight: 700; color: #fff; letter-spacing: 2px; margin-bottom: 14px;">
+          AL NOOR TOUR &amp; TRAVELS • RAJARHAT, KOLKATA
+        </div>
+        <p style="font-size: 1.15rem; color: var(--gold-light); margin-bottom: 6px;">"আপনার সফর, আমাদের দোয়া"</p>
+        <p style="font-size: 1.05rem; color: var(--text-muted); margin-bottom: 16px;">"বিশ্বাসের পথে, সুন্দর সফর"</p>
+        
+        <p style="color: var(--text-muted); font-size: 1rem; margin-bottom: 6px;">
+          <i class="fa-solid fa-location-dot" style="color: var(--gold-bright); margin-right: 6px;"></i>
+          ঠিকানা: রাজারহাট, কলকাতা – ৭০০১৩৫ (Rajarhat, Kolkata – 700135)
+        </p>
+        <p style="color: var(--text-muted); font-size: 1rem; margin-bottom: 8px;">
+          <i class="fa-solid fa-phone" style="color: var(--gold-bright); margin-right: 6px;"></i>
+          ফোন: <a href="tel:+918282912691" style="color: #fff; text-decoration: none; font-weight: 700;">+91 82829 12691</a>
+        </p>
+        <p style="color: var(--text-muted); font-size: 1rem;">
+          <i class="fa-brands fa-facebook" style="color: #1877f2; margin-right: 6px;"></i>
+          <a href="https://www.facebook.com/alnurtourandtravels" target="_blank" style="color: #60a5fa; text-decoration: none;">
+            facebook.com/alnurtourandtravels
+          </a>
+        </p>
+      </div>
+
+      <div>
+        <h4 style="color: #fff; font-family: var(--font-sans); font-size: 1.1rem; font-weight: 700; letter-spacing: 1px; margin-bottom: 18px;">প্যাকেজ সমূহ</h4>
+        <ul style="list-style: none; font-size: 1.02rem; line-height: 2.2;">
+          <li><a href="umrah.html" style="color: var(--gold-light); text-decoration: none;"><i class="fa-solid fa-angle-right"></i> স্ট্যান্ডার্ড প্যাকেজ (৳৯৫,০০০)</a></li>
+          <li><a href="umrah.html" style="color: var(--gold-light); text-decoration: none;"><i class="fa-solid fa-angle-right"></i> ডিলাক্স প্যাকেজ (৳১২০,০০০)</a></li>
+          <li><a href="hajj.html" style="color: var(--gold-light); text-decoration: none;"><i class="fa-solid fa-angle-right"></i> হজ্জ প্যাকেজ ও পরামর্শ</a></li>
+          <li><a href="umrah.html" style="color: var(--gold-light); text-decoration: none;"><i class="fa-solid fa-angle-right"></i> তায়িফ ও বদর জিয়ারত (ফ্রি)</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 style="color: #fff; font-family: var(--font-sans); font-size: 1.1rem; font-weight: 700; letter-spacing: 1px; margin-bottom: 18px;">পেজ লিংক</h4>
+        <ul style="list-style: none; font-size: 1.02rem; line-height: 2.2;">
+          <li><a href="index.html" style="color: var(--gold-light); text-decoration: none;"><i class="fa-solid fa-angle-right"></i> হোম পেজ</a></li>
+          <li><a href="umrah.html" style="color: var(--gold-light); text-decoration: none;"><i class="fa-solid fa-angle-right"></i> উমরাহ প্যাকেজ</a></li>
+          <li><a href="hajj.html" style="color: var(--gold-light); text-decoration: none;"><i class="fa-solid fa-angle-right"></i> হজ্জ প্যাকেজ</a></li>
+          <li><a href="about.html" style="color: var(--gold-light); text-decoration: none;"><i class="fa-solid fa-angle-right"></i> আমাদের সম্পর্কে</a></li>
+          <li><a href="gallery.html" style="color: var(--gold-light); text-decoration: none;"><i class="fa-solid fa-angle-right"></i> ফটো গ্যালারি</a></li>
+          <li><a href="contact.html" style="color: var(--gold-light); text-decoration: none;"><i class="fa-solid fa-angle-right"></i> যোগাযোগ ও বুকিং</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 25px; text-align: center; font-family: var(--font-sans); font-size: 12px; font-weight: 600; color: var(--text-dim); letter-spacing: 1px;">
+      &copy; 2026 AL NOOR TOUR &amp; TRAVELS. ALL RIGHTS RESERVED. RAJARHAT, KOLKATA.
+    </div>
+  </footer>
+
+  <!-- FLOATING BUTTONS (WHATSAPP + FACEBOOK) -->
+  <div class="floating-btns-wrap">
+    <a href="https://wa.me/918282912691?text=আসসালামু%20আলাইকুম%2C%20উমরাহ%20প্যাকেজ%20সম্পর্কে%20জানতে%20চাই" class="floating-circle-btn whatsapp" target="_blank" title="WhatsApp-এ যোগাযোগ করুন">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a href="https://www.facebook.com/alnurtourandtravels" class="floating-circle-btn facebook" target="_blank" title="Facebook পেজ দেখুন">
+      <i class="fa-brands fa-facebook-f"></i>
+    </a>
+  </div>
+
+  <!-- 🌟 UNIVERSAL POPUP MODAL WRAPPER -->
+  <div id="universal-modal" class="page-modal-overlay" onclick="handleModalBackdropClick(event)">
+    <div class="page-modal-container">
+      
+      <div class="page-modal-header">
+        <div>
+          <span class="modal-tag" id="modal-tag">AL NOOR SERVICE</span>
+          <h2 class="modal-title" id="modal-title">TITLE</h2>
+        </div>
+        <button class="modal-close-btn" onclick="closePageModal()" aria-label="Close popup">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="page-modal-body" id="modal-body-content">
+        <!-- Content will be injected dynamically -->
+      </div>
+
+    </div>
+  </div>
+
+  <!-- HIDDEN TEMPLATES FOR MODALS -->
+  <div id="modal-templates" style="display: none;">
+    <!-- Gallery Template -->
+    <div id="template-gallery">
+      <div style="text-align: center; margin-bottom: 25px;">
+        <span class="entry-tag">পবিত্র মুহূর্তসমূহ</span>
+        <h3 style="font-size: 2.2rem; font-weight: 800; color: #fff; margin: 8px 0;">মক্কা ও মদিনা শরীফের আলোকচিত্র</h3>
+      </div>
+      <div class="ziyarat-grid" id="modal-gallery-grid">
+        <div class="ziyarat-card">
+          <img src="assets/kaaba-grand.jpg" alt="পবিত্র কাবা শরীফ">
+          <div class="ziyarat-shade">
+            <span class="ziyarat-badge">মক্কা মুকাররমা</span>
+            <div class="ziyarat-label">পবিত্র কাবা শরীফ</div>
+            <div class="ziyarat-sublabel">বায়তুল্লাহর নিশীথ রাতের তাওয়াফ</div>
+          </div>
+        </div>
+        <div class="ziyarat-card">
+          <img src="assets/madinah-prophet-mosque.jpg" alt="মসজিদে নববী">
+          <div class="ziyarat-shade">
+            <span class="ziyarat-badge" style="background: #059669;">মদিনা মুনাওয়ারা</span>
+            <div class="ziyarat-label">মসজিদে নববী ও রওজা শরীফ</div>
+            <div class="ziyarat-sublabel">রহমতের সবুজ গম্বুজ ও উন্মুক্ত ছাতা</div>
+          </div>
+        </div>
+        <div class="ziyarat-card">
+          <img src="assets/uhud-mountain.jpg" alt="ঐতিহাসিক উহুদ ময়দান">
+          <div class="ziyarat-shade">
+            <span class="ziyarat-badge" style="background: #ea580c;">ঐতিহাসিক পর্বত</span>
+            <div class="ziyarat-label">ঐতিহাসিক উহুদ ময়দান ও পাহাড়</div>
+            <div class="ziyarat-sublabel">শুহাদায়ে উহুদের পবিত্র স্মৃতিস্থল</div>
+          </div>
+        </div>
+        <div class="ziyarat-card">
+          <img src="assets/makkah-courtyard.jpg" alt="মক্কা ক্লক টাওয়ার">
+          <div class="ziyarat-shade">
+            <span class="ziyarat-badge" style="background: #7c3aed;">হারাম চত্বর</span>
+            <div class="ziyarat-label">মক্কা ক্লক টাওয়ার ও উন্মুক্ত চত্বর</div>
+            <div class="ziyarat-sublabel">হারাম শরীফের প্রবেশদ্বার</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // 1. SMOOTH PARALLAX BACKGROUND
+    const parallaxBg = document.getElementById('parallax-bg');
+    window.addEventListener('scroll', () => {
+      const scrolled = window.pageYOffset;
+      if (parallaxBg) {
+        parallaxBg.style.transform = `translateY(${scrolled * 0.18}px) scale(1.03)`;
+      }
+    });
+
+    // 2. REALISTIC BRANCHING LIGHTNING
+    const canvas = document.getElementById('lightning-canvas');
+    const ctx = canvas.getContext('2d');
+    const skyFlash = document.getElementById('lightning-sky-flash');
+
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    function drawLightningBolt(startX, startY, endX, endY, branchLevel = 0) {
+      if (branchLevel > 3) return;
+
+      const segments = 12 + Math.floor(Math.random() * 8);
+      let curX = startX;
+      let curY = startY;
+      const dx = (endX - startX) / segments;
+      const dy = (endY - startY) / segments;
+
+      ctx.beginPath();
+      ctx.moveTo(curX, curY);
+
+      for (let i = 0; i < segments; i++) {
+        const jitterX = (Math.random() - 0.5) * (40 / (branchLevel + 1));
+        const jitterY = (Math.random() - 0.5) * 15;
+        curX += dx + jitterX;
+        curY += dy + jitterY;
+        ctx.lineTo(curX, curY);
+
+        if (Math.random() < 0.22 && branchLevel < 2) {
+          const branchAngle = (Math.random() - 0.5) * Math.PI * 0.6;
+          const branchLen = 60 + Math.random() * 80;
+          const branchEndX = curX + Math.sin(branchAngle) * branchLen;
+          const branchEndY = curY + Math.cos(branchAngle) * branchLen;
+          drawLightningBolt(curX, curY, branchEndX, branchEndY, branchLevel + 1);
+        }
+      }
+
+      ctx.strokeStyle = branchLevel === 0 ? '#ffffff' : (Math.random() < 0.5 ? '#d4af37' : '#90e0ef');
+      ctx.lineWidth = branchLevel === 0 ? 3.5 : 1.5;
+      ctx.shadowColor = '#00f2fe';
+      ctx.shadowBlur = branchLevel === 0 ? 18 : 8;
+      ctx.lineCap = 'round';
+      ctx.lineJoin = 'round';
+      ctx.stroke();
+    }
+
+    function strikeRealisticLightning() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      const startX = canvas.width * (0.2 + Math.random() * 0.6);
+      const startY = 0;
+      const endX = startX + (Math.random() - 0.5) * 250;
+      const endY = canvas.height * (0.45 + Math.random() * 0.35);
+
+      skyFlash.style.opacity = '0.55';
+      drawLightningBolt(startX, startY, endX, endY, 0);
+
+      setTimeout(() => {
+        skyFlash.style.opacity = '0.1';
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        setTimeout(() => {
+          skyFlash.style.opacity = '0.85';
+          drawLightningBolt(startX + 10, startY, endX + 15, endY, 0);
+          
+          setTimeout(() => {
+            skyFlash.style.opacity = '0';
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+          }, 70);
+        }, 50);
+      }, 60);
+    }
+
+    setInterval(() => {
+      if (Math.random() < 0.45) {
+        strikeRealisticLightning();
+      }
+    }, 8000);
+
+    // 3. AUDIO GATE & EQUALIZER
+    const audio = document.getElementById('talbiyah-audio');
+    const entryOverlay = document.getElementById('entry-overlay');
+    const enterBtn = document.getElementById('enter-btn');
+    const enterMutedBtn = document.getElementById('enter-muted-btn');
+    const soundToggle = document.getElementById('sound-toggle');
+    const soundLabel = document.getElementById('sound-label');
+
+    let isAudioPlaying = false;
+
+    function setAudio(play) {
+      if (play) {
+        audio.play().then(() => {
+          isAudioPlaying = true;
+          soundToggle.classList.add('playing');
+          soundLabel.textContent = 'SOUND ON';
+        }).catch(err => console.log('Autoplay prevented:', err));
+      } else {
+        audio.pause();
+        isAudioPlaying = false;
+        soundToggle.classList.remove('playing');
+        soundLabel.textContent = 'MUTED';
+      }
+    }
+
+    enterBtn.addEventListener('click', () => {
+      setAudio(true);
+      strikeRealisticLightning();
+      entryOverlay.classList.add('fade-out');
+      setTimeout(() => { entryOverlay.style.display = 'none'; }, 900);
+    });
+
+    enterMutedBtn.addEventListener('click', () => {
+      setAudio(false);
+      entryOverlay.classList.add('fade-out');
+      setTimeout(() => { entryOverlay.style.display = 'none'; }, 900);
+    });
+
+    soundToggle.addEventListener('click', () => {
+      setAudio(!isAudioPlaying);
+    });
+
+    // 4. UNIVERSAL POPUP MODAL ENGINE
+    const modalOverlay = document.getElementById('universal-modal');
+    const modalTitle = document.getElementById('modal-title');
+    const modalTag = document.getElementById('modal-tag');
+    const modalBody = document.getElementById('modal-body-content');
+
+    function openPageModal(key) {
+      const template = document.getElementById('template-' + key);
+      if (!template) return;
+
+      modalTag.textContent = "AL NOOR GALLERY";
+      modalTitle.textContent = "মক্কা ও মদিনা শরীফের আলোকচিত্র";
+      modalBody.innerHTML = template.innerHTML;
+      modalOverlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      strikeRealisticLightning();
+    }
+
+    function closePageModal() {
+      modalOverlay.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    function handleModalBackdropClick(e) {
+      if (e.target === modalOverlay) closePageModal();
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modalOverlay.classList.contains('active')) closePageModal();
+    });
+
+    // 5. STAGGERED FAQ DATA (EXACT Q&A FROM AL NOOR PROMPT)
+    const faqData = {
+      1: {
+        tag: "PACKAGE INCLUSIONS",
+        title: "প্যাকেজে কী কী সুযোগ-সুবিধা অন্তর্ভুক্ত?",
+        content: `
+          <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-light);">
+            <p style="margin-bottom: 14px;">আল নূর ট্যুর অ্যান্ড ট্রাভেলসের প্রতিটি উমরাহ প্যাকেজে নিচের <strong>১০টি পূর্ণ সুযোগ-সুবিধা</strong> নিশ্চিত করা হয়:</p>
+            <ol style="margin: 15px 0 25px 25px; line-height: 2;">
+              <li><strong>রাউন্ড-ট্রিপ বিমান টিকিট:</strong> কলকাতা থেকে সৌদি আরব যাওয়া-আসা।</li>
+              <li><strong>২ সেট উমরাহ কিট:</strong> প্রিমিয়াম এহরাম, বেল্ট, ব্যাগ ইত্যাদি।</li>
+              <li><strong>অভিজ্ঞ গাইড:</strong> বিজ্ঞ আলেমের সার্বক্ষণিক আমল তালিম।</li>
+              <li><strong>উমরাহ ভিসা ও ইন্স্যুরেন্স:</strong> সম্পূর্ণ ভিসা ও হেলথ ইন্স্যুরেন্স।</li>
+              <li><strong>প্রতিদিন তিন বেলা খাবার:</strong> দেশীয় বাঙালি বাবুর্চির রান্না।</li>
+              <li><strong>যাতায়াতের ব্যবস্থা:</strong> আধুনিক এসি বাসে অভ্যন্তরীণ যাতায়াত।</li>
+              <li><strong>সৌদি সিম কার্ড:</strong> পরিবারের সাথে সার্বক্ষণিক কথা বলার সুযোগ।</li>
+              <li><strong>জমজম পানি:</strong> ৫ লিটারের সিল্ড বোতল।</li>
+              <li><strong>মক্কা-মদিনায় লাক্সারি হোটেলে থাকা:</strong> হারামের নিকটবর্তী পরিষ্কার-পরিচ্ছন্ন রুম।</li>
+              <li><strong>বাংলা খাবার:</strong> তৃপ্তিকর সুস্বাদু আহার।</li>
+            </ol>
+            <div style="background: rgba(212, 175, 55, 0.12); border-left: 4px solid var(--gold-bright); padding: 14px 18px; border-radius: 8px;">
+              <strong style="color: var(--gold-bright);">বিশেষ বোনাস:</strong> তায়িফ ও বদর জিয়ারত সম্পূর্ণ ফ্রি!
+            </div>
+          </div>
+        `
+      },
+      2: {
+        tag: "BOOKING & ADVANCE",
+        title: "বুকিংয়ের জন্য কত অগ্রিম দিতে হবে?",
+        content: `
+          <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-light);">
+            <div style="background: rgba(217, 56, 41, 0.15); border-left: 4px solid var(--red-flame); padding: 16px 20px; border-radius: 8px; margin-bottom: 18px;">
+              <strong style="color: #ff8a80; font-size: 1.35rem;">বুকিং অগ্রিম: মাত্র ৳১০,০০০/-</strong>
+            </div>
+            <p>সিট কনফার্মেশনের জন্য মাত্র ৳১০,০০০ অগ্রিম প্রদান করতে হবে এবং মূল পাসপোর্ট জমা দিতে হবে। উমরাহ ভিসা অনুমোদনের পর বাকি টাকা পরিশোধের নিয়ম।</p>
+            <div style="text-align: center; margin-top: 25px;">
+              <a href="contact.html" class="seal-btn seal-btn-gold">
+                <i class="fa-solid fa-file-pen"></i> এখনই বুকিং ফর্ম পূরণ করুন
+              </a>
+            </div>
+          </div>
+        `
+      },
+      3: {
+        tag: "PASSPORT & DOCUMENTS",
+        title: "পাসপোর্ট কি লাগবে ও কী ডকুমেন্টস প্রয়োজন?",
+        content: `
+          <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-light);">
+            <p style="margin-bottom: 15px;"><strong>হ্যাঁ, মূল পাসপোর্ট বাধ্যতামূলক।</strong> ভিসার যাবতীয় প্রক্রিয়া সম্পন্ন করতে নিচের ডকুমেন্টসগুলো দিতে হবে:</p>
+            <ul style="margin: 15px 0 20px 25px; line-height: 2;">
+              <li>মূল পাসপোর্ট (ন্যূনতম ৬ মাসের মেয়াদ থাকতে হবে)</li>
+              <li>২ কপি সাদা ব্যাকগ্রাউন্ডে রঙিন ছবি (সাইজ ৪x৬ সেমি)</li>
+              <li>আধার কার্ড / ভোটার কার্ডের জেরক্স</li>
+            </ul>
+            <p>ভিসা ইস্যুর সমস্ত কাজ আল নূর ট্যুর অ্যান্ড ট্রাভেলসের অনুমোদিত লাইসেন্স দ্বারা নির্ভুলভাবে করা হয়।</p>
+          </div>
+        `
+      },
+      4: {
+        tag: "TOUR DURATION & FLIGHT",
+        title: "সফর কতদিনের ও ফ্লাইট কোথা থেকে ছাড়বে?",
+        content: `
+          <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-light);">
+            <div style="background: rgba(14, 28, 22, 0.9); border: 1px solid var(--border-gold); padding: 20px; border-radius: 14px; margin-bottom: 18px;">
+              <h4 style="color: var(--gold-bright); font-size: 1.3rem; margin-bottom: 8px;">সফরের সময়কাল: ১৫ থেকে ১৬ দিন</h4>
+              <p>• মক্কা মুকাররমা অবস্থান: বায়তুল্লাহর সান্নিধ্যে নিবিড় ইবাদত ও তাওয়াফ</p>
+              <p>• মদিনা মুনাওয়ারা অবস্থান: মসজিদে নববী ও রওজা মোবারকে দরুদ ও সালাম</p>
+            </div>
+            <p><strong>ফ্লাইট:</strong> নেতাজি সুভাষচন্দ্র বসু আন্তর্জাতিক বিমানবন্দর (কলকাতা) থেকে সরাসরি অথবা কানেক্টিং ফ্লাইট।</p>
+          </div>
+        `
+      },
+      5: {
+        tag: "WOMEN PILGRIMS",
+        title: "মহিলারা কি মাহরামসহ যেতে পারবেন?",
+        content: `
+          <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-light);">
+            <div style="background: rgba(16, 185, 129, 0.15); border-left: 4px solid var(--emerald-accent); padding: 16px 20px; border-radius: 8px; margin-bottom: 16px;">
+              <strong style="color: #6ee7b7; font-size: 1.3rem;">হ্যাঁ, মাহরামসহ পূর্ণ ব্যবস্থা আছে।</strong>
+            </div>
+            <p>মহিলা হাজিদের জন্য আল নূর ট্যুর অ্যান্ড ট্রাভেলস বিশেষ সুবিধা, আলাদা পর্দা ও স্বাচ্ছন্দ্যপূর্ণ আবাসন নিশ্চিত করে। অভিজ্ঞ আলেম ও মহিলা মোয়াল্লিমার দিকনির্দেশনায় মা-বোনেরা অত্যন্ত নিরাপদে প্রতিটি আমল সম্পন্ন করতে পারেন।</p>
+          </div>
+        `
+      },
+      6: {
+        tag: "FREE ZIYARAT TOUR",
+        title: "জিয়ারতে কোথায় নিয়ে যাওয়া হয়?",
+        content: `
+          <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-light);">
+            <div style="background: rgba(212, 175, 55, 0.15); border-left: 4px solid var(--gold-bright); padding: 16px 20px; border-radius: 8px; margin-bottom: 18px;">
+              <strong style="color: var(--gold-bright); font-size: 1.3rem;">তায়িফ ও বদরসহ সম্পূর্ণ জিয়ারত — একদম ফ্রি!</strong>
+            </div>
+            <p>আমাদের প্যাকেজে মক্কা ও মদিনার ঐতিহাসিক সব স্থান ছাড়াও বিশেষ উপহার হিসেবে অন্তর্ভুক্ত রয়েছে:</p>
+            <ul style="margin: 15px 0 20px 25px; line-height: 2;">
+              <li><strong>ঐতিহাসিক তায়িফ জিয়ারত:</strong> নবীজির স্মৃতিবিজড়িত স্থান ও মসজিদ দর্শন।</li>
+              <li><strong>ঐতিহাসিক বদর প্রান্তর:</strong> ইসলামের প্রথম বিজয়ের পুণ্যভূমি।</li>
+              <li><strong>জাবালে নূর ও জাবালে সৌর:</strong> হেরা গুহা ও স্মৃতিময় পর্বত।</li>
+              <li><strong>মসজিদে কুবা ও জাবালে উহুদ:</strong> ইসলামের প্রথম মসজিদ ও শুহাদায়ে উহুদের কবরস্থান।</li>
+            </ul>
+          </div>
+        `
+      }
+    };
+
+    function openFaqModal(id) {
+      const item = faqData[id];
+      if (!item) return;
+
+      modalTag.textContent = item.tag;
+      modalTitle.textContent = item.title;
+      modalBody.innerHTML = item.content;
+      modalOverlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      strikeRealisticLightning();
+    }
+
+    // 6. MOBILE DRAWER TOGGLE
+    function toggleMobileMenu(open) {
+      const drawer = document.getElementById('mobile-drawer');
+      const backdrop = document.getElementById('mobile-drawer-backdrop');
+      if (open) {
+        drawer.classList.add('active');
+        backdrop.classList.add('active');
+      } else {
+        drawer.classList.remove('active');
+        backdrop.classList.remove('active');
+      }
+    }
+
+    // 7. 3D PARALLAX MOUSE DRIFT FOR POLAROIDS
+    document.addEventListener('mousemove', (e) => {
+      const mouseX = (e.clientX / window.innerWidth) - 0.5;
+      const mouseY = (e.clientY / window.innerHeight) - 0.5;
+
+      document.querySelectorAll('.floating-polaroid').forEach((p, idx) => {
+        const speed = (idx + 1) * 10;
+        p.style.transform = `translate(${mouseX * speed}px, ${mouseY * speed}px)`;
+      });
+    });
+  </script>
+</body>
+</html>

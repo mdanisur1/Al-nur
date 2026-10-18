@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আমাদের সম্পর্কে — আল নূর ট্যুর অ্যান্ড ট্রাভেলস | Al Noor Tour & Travels</title>
+  <meta name="description" content="আল নূর ট্যুর অ্যান্ড ট্রাভেলস — হজ্জ, উমরাহ ও জিয়ারতের বিশ্বস্ত ঠিকানা। রাজারহাট, কলকাতা – ৭০০১৩৫।">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Da+2:wght@400;500;600;700;800&family=Cinzel:wght@600;700;800;900&family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    :root {
+      --bg-void: #040806;
+      --bg-panel: rgba(8, 18, 14, 0.90);
+      --gold-primary: #d4af37;
+      --gold-bright: #ffd700;
+      --gold-light: #fbeea4;
+      --gold-metallic: linear-gradient(135deg, #fff4bf 0%, #e2be52 40%, #c49924 80%, #947113 100%);
+      --gold-glow: rgba(212, 175, 55, 0.38);
+      --red-flame: #d93829;
+      --emerald-accent: #10b981;
+      --text-white: #ffffff;
+      --text-light: #f1f5f9;
+      --text-muted: #cbd5e1;
+      --border-gold: rgba(212, 175, 55, 0.32);
+      --font-display: 'Anton', sans-serif;
+      --font-bn: 'Baloo Da 2', cursive, sans-serif;
+      --font-sans: 'Outfit', sans-serif;
+      --transition-smooth: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { background-color: var(--bg-void); color: var(--text-light); font-family: var(--font-bn); overflow-x: hidden; line-height: 1.65; }
+
+    .site-universe-bg { position: fixed; inset: 0; z-index: -3; background: radial-gradient(ellipse at 50% 20%, rgba(14, 92, 63, 0.28) 0%, rgba(4, 8, 6, 0.98) 75%); pointer-events: none; }
+    .site-universe-backdrop { position: fixed; top: -10vh; left: 0; width: 100vw; height: 120vh; z-index: -2; background-image: url('assets/kaaba-night.jpg'); background-size: cover; background-position: center top; opacity: 0.65; filter: contrast(115%) brightness(88%); pointer-events: none; }
+    .cinematic-vignette { position: fixed; inset: 0; pointer-events: none; z-index: 50; background: radial-gradient(circle at center, transparent 38%, rgba(2, 5, 4, 0.88) 98%); }
+
+    /* HEADER */
+    header.site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: linear-gradient(180deg, rgba(3, 8, 6, 0.97) 0%, rgba(3, 8, 6, 0.88) 75%, transparent 100%); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(212, 175, 55, 0.28); padding: 12px 32px; display: flex; align-items: center; justify-content: space-between; }
+    .brand-wrap { display: flex; align-items: center; gap: 14px; text-decoration: none; cursor: pointer; }
+    .brand-emblem { width: 46px; height: 46px; border-radius: 12px; background: radial-gradient(circle at 40% 30%, #ffd700 0%, #aa841e 70%, #201503 100%); border: 1.5px solid var(--gold-light); display: flex; align-items: center; justify-content: center; color: #050a08; font-size: 1.4rem; box-shadow: 0 0 20px var(--gold-glow); flex-shrink: 0; }
+    .brand-bn-title { font-family: var(--font-bn); font-size: 1.35rem; font-weight: 800; line-height: 1.1; color: var(--gold-bright); letter-spacing: 0.5px; }
+    .brand-sub-1 { font-family: var(--font-sans); font-size: 11px; font-weight: 700; letter-spacing: 2.2px; color: #ffffff; text-transform: uppercase; line-height: 1.2; }
+    .brand-sub-2 { font-family: var(--font-sans); font-size: 9px; font-weight: 600; letter-spacing: 1px; color: var(--gold-light); text-transform: uppercase; line-height: 1.2; }
+    nav.desktop-nav { display: flex; align-items: center; gap: 22px; }
+    nav.desktop-nav a { color: #e2e8f0; text-decoration: none; font-size: 1.05rem; font-weight: 600; padding: 6px 4px; transition: color 0.3s; }
+    nav.desktop-nav a:hover, nav.desktop-nav a.active { color: var(--gold-bright); }
+    nav.desktop-nav a.active { border-bottom: 2px solid var(--gold-bright); }
+    .btn-header-cta { height: 40px; padding: 0 24px; border-radius: 999px; background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%); color: #fff; font-family: var(--font-sans); font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; font-weight: 800; text-decoration: none; display: inline-flex; align-items: center; box-shadow: 0 0 16px rgba(217, 56, 41, 0.45); }
+
+    .page-hero { padding: 150px 20px 60px; text-align: center; position: relative; z-index: 10; }
+    .page-hero-eyebrow { display: inline-block; padding: 6px 20px; border-radius: 999px; background: rgba(8, 26, 20, 0.88); border: 1px solid var(--border-gold); color: var(--gold-bright); font-size: 1rem; font-weight: 700; margin-bottom: 16px; }
+    .page-hero-title { font-family: var(--font-display); font-size: clamp(2.6rem, 6.5vw, 4.8rem); color: #fff; letter-spacing: 2px; text-transform: uppercase; line-height: 1.05; margin-bottom: 12px; }
+    .page-hero-bn { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; background: var(--gold-metallic); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 10px; }
+    .page-hero-sub { font-size: 1.3rem; color: var(--text-light); }
+
+    .container { max-width: 1050px; margin: 0 auto; padding: 0 20px; }
+
+    /* STORY CARD */
+    .about-story-card { background: var(--bg-panel); border: 2px solid var(--gold-bright); border-radius: 26px; padding: 45px 35px; text-align: center; margin: 40px auto 60px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 35px var(--gold-glow); backdrop-filter: blur(14px); }
+    .about-story-text { font-size: 1.35rem; color: #f1f5f9; line-height: 1.85; max-width: 820px; margin: 0 auto 30px; font-weight: 500; }
+    .about-motto { font-size: 2.2rem; font-weight: 800; background: var(--gold-metallic); -webkit-background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 2px 10px rgba(0,0,0,0.8)); margin-bottom: 30px; }
+
+    /* VALUES GRID */
+    .values-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; margin-bottom: 60px; }
+    .value-card { background: var(--bg-panel); border: 1px solid var(--border-gold); border-radius: 20px; padding: 32px 24px; text-align: center; backdrop-filter: blur(10px); transition: var(--transition-smooth); }
+    .value-card:hover { transform: translateY(-6px); border-color: var(--gold-bright); box-shadow: 0 15px 40px rgba(0,0,0,0.8); }
+    .value-icon { width: 54px; height: 54px; border-radius: 16px; margin: 0 auto 16px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; background: radial-gradient(circle, #d4af37, #4a3c0e); color: #fff; box-shadow: 0 0 20px var(--gold-glow); }
+    .value-title { font-size: 1.35rem; font-weight: 800; color: #fff; margin-bottom: 8px; }
+    .value-desc { font-size: 1rem; color: var(--text-muted); }
+
+    /* CONTACT SUMMARY CARD */
+    .contact-summary-card { background: linear-gradient(135deg, rgba(8, 26, 20, 0.95), rgba(4, 14, 11, 0.98)); border: 1.5px solid var(--border-gold); border-radius: 24px; padding: 40px 30px; text-align: center; margin-bottom: 70px; }
+
+    .seal-btn { display: inline-flex; align-items: center; gap: 12px; height: 56px; padding: 0 32px; border: 1px solid rgba(217, 56, 41, 0.65); border-radius: 999px; background: radial-gradient(ellipse at 50% 120%, rgba(217, 56, 41, 0.45), rgba(20, 6, 6, 0.95) 70%), rgba(8, 4, 4, 0.85); color: #ffd9d5; font-family: var(--font-sans); font-size: 13.5px; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; text-decoration: none; cursor: pointer; transition: var(--transition-smooth); }
+    .seal-btn:hover { transform: translateY(-2px); border-color: #ef4444; color: #fff; box-shadow: 0 0 25px rgba(217, 56, 41, 0.6); }
+    .seal-btn-gold { border: 1px solid rgba(212, 175, 55, 0.7); background: radial-gradient(ellipse at 50% 120%, rgba(212, 175, 55, 0.45), rgba(24, 18, 6, 0.95) 70%), rgba(10, 8, 4, 0.88); color: var(--gold-light); }
+    .seal-btn-gold:hover { border-color: var(--gold-bright); color: #fff; box-shadow: 0 0 25px var(--gold-glow); }
+
+    /* FOOTER */
+    footer.site-footer { background: #020403; border-top: 1px solid var(--border-gold); padding: 65px 20px 30px; position: relative; z-index: 10; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+    @media (max-width: 880px) { .footer-grid { grid-template-columns: 1fr; } nav.desktop-nav { display: none; } }
+    .floating-btns-wrap { position: fixed; bottom: 25px; right: 25px; z-index: 99; display: flex; flex-direction: column; gap: 14px; }
+    .floating-circle-btn { width: 58px; height: 58px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; text-decoration: none; color: #ffffff; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6); transition: var(--transition-smooth); }
+    .floating-circle-btn.whatsapp { background: #25d366; }
+    .floating-circle-btn.facebook { background: #1877f2; }
+    .floating-circle-btn:hover { transform: scale(1.14); }
+  </style>
+</head>
+<body>
+
+  <div class="site-universe-bg"></div>
+  <div class="site-universe-backdrop"></div>
+  <div class="cinematic-vignette"></div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <a href="index.html" class="brand-wrap">
+      <div class="brand-emblem"><i class="fa-solid fa-kaaba"></i></div>
+      <div class="brand-text-block">
+        <span class="brand-bn-title">আল নূর ট্যুর অ্যান্ড ট্রাভেলস</span>
+        <span class="brand-sub-1">AL NOOR TOUR &amp; TRAVELS</span>
+        <span class="brand-sub-2">HAJJ &amp; UMRAH • RAJARHAT, KOLKATA</span>
+      </div>
+    </a>
+
+    <nav class="desktop-nav">
+      <a href="index.html">হোম</a>
+      <a href="umrah.html">উমরাহ প্যাকেজ</a>
+      <a href="hajj.html">হজ্জ প্যাকেজ</a>
+      <a href="about.html" class="active">আমাদের সম্পর্কে</a>
+      <a href="gallery.html">গ্যালারি</a>
+      <a href="contact.html">যোগাযোগ</a>
+    </nav>
+
+    <a href="contact.html" class="btn-header-cta">বুকিং করুন</a>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="page-hero-eyebrow"><i class="fa-solid fa-hand-holding-heart"></i> আমাদের আত্মিক প্রতিশ্রুতি</span>
+      <h1 class="page-hero-title">TRUSTED PATH. BEAUTIFUL JOURNEY.</h1>
+      <h2 class="page-hero-bn">বিশ্বাসের পথে, সুন্দর সফর</h2>
+      <p class="page-hero-sub">আল নূর ট্যুর অ্যান্ড ট্রাভেলস — হজ্জ, উমরাহ ও জিয়ারতে আপনার নিবেদিত আমানতদার</p>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <section style="position: relative; z-index: 10; padding-bottom: 70px;">
+    <div class="container">
+      
+      <!-- STORY CARD -->
+      <div class="about-story-card">
+        <p class="about-story-text">
+          "আল নূর ট্যুর অ্যান্ড ট্রাভেলস — হজ্জ, উমরাহ ও জিয়ারতের সফরে আপনার বিশ্বস্ত সঙ্গী। ভিসা, টিকিট, হোটেল — প্রতিটি ব্যবস্থা আমরা যত্ন নিয়ে করি, যেন আপনি নিশ্চিন্তে ইবাদতে মন দিতে পারেন।"
+        </p>
+
+        <div class="about-motto">
+          "আমরা যত্ন করি, আপনি দোয়া করুন"
+        </div>
+
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+          <a href="contact.html" class="seal-btn seal-btn-gold">
+            <i class="fa-solid fa-calendar-check"></i> আমাদের সাথে যোগাযোগ করুন
+          </a>
+          <a href="umrah.html" class="seal-btn">
+            <i class="fa-solid fa-box-open"></i> প্যাকেজ সমূহ দেখুন
+          </a>
+        </div>
+      </div>
+
+      <!-- 4 VALUES -->
+      <div style="text-align: center; margin-bottom: 35px;">
+        <h2 style="font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3rem); letter-spacing: 1.5px; text-transform: uppercase;">OUR CORE VALUES.</h2>
+        <h3 style="font-size: 1.8rem; font-weight: 800; color: var(--gold-bright);">আমাদের ৪টি মৌলিক স্তম্ভ</h3>
+      </div>
+
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon"><i class="fa-solid fa-couch"></i></div>
+          <h4 class="value-title">সাচ্ছন্দ্য</h4>
+          <p class="value-desc">হারাম প্রাঙ্গণের নিকটবর্তী হোটেল, পুষ্টিকর খাবার এবং আরামদায়ক যাতায়াত ব্যবস্থা।</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+          <h4 class="value-title">যত্ন</h4>
+          <p class="value-desc">প্রবীণ ও মহিলা হাজিদের জন্য বিশেষ নজর ও ব্যক্তিগত গ্রুপ লিডারের দিকনির্দেশনা।</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h4 class="value-title">বিশ্বাস</h4>
+          <p class="value-desc">কোনো গোপন চার্জ নেই; মুখে যা বলা হবে, বাস্তবে তার চেয়েও বেশি সেবা পাবেন ইনশাআল্লাহ।</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon"><i class="fa-solid fa-award"></i></div>
+          <h4 class="value-title">গুণমান</h4>
+          <p class="value-desc">সৌদি নিয়ম ও নুসুক গাইডলাইন মেনে সুন্নাত তরিকায় প্রতিটি আমল হাতে-কলমে শিক্ষা।</p>
+        </div>
+      </div>
+
+      <!-- CONTACT SUMMARY CARD -->
+      <div class="contact-summary-card">
+        <h3 style="font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 12px;">প্রধান কার্যালয়ের ঠিকানা ও তথ্য</h3>
+        <p style="font-size: 1.2rem; color: var(--gold-light); margin-bottom: 25px;">আল নূর ট্যুর অ্যান্ড ট্রাভেলস • রাজারহাট, কলকাতা – ৭০০১৩৫</p>
+        
+        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+          <a href="tel:+918282912691" class="seal-btn seal-btn-gold">
+            <i class="fa-solid fa-phone"></i> +91 82829 12691
+          </a>
+          <a href="https://wa.me/918282912691?text=আসসালামু%20আলাইকুম" target="_blank" class="seal-btn seal-btn-gold">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp চ্যাট
+          </a>
+          <a href="https://www.facebook.com/alnurtourandtravels" target="_blank" class="seal-btn">
+            <i class="fa-brands fa-facebook"></i> Facebook পেজ
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div style="font-family: var(--font-bn); font-size: 1.8rem; font-weight: 800; color: var(--gold-bright); margin-bottom: 2px;">
+          আল নূর ট্যুর অ্যান্ড ট্রাভেলস
+        </div>
+        <div style="font-family: var(--font-sans); font-size: 11px; font-weight: 700; color: #fff; letter-spacing: 2px; margin-bottom: 14px;">
+          AL NOOR TOUR &amp; TRAVELS • RAJARHAT, KOLKATA
+        </div>
+        <p style="font-size: 1.15rem; color: var(--gold-light); margin-bottom: 6px;">"আপনার সফর, আমাদের দোয়া"</p>
+        <p style="font-size: 1.05rem; color: var(--text-muted); margin-bottom: 16px;">"বিশ্বাসের পথে, সুন্দর সফর"</p>
+        <p style="color: var(--text-muted); font-size: 1rem; margin-bottom: 6px;"><i class="fa-solid fa-location-dot" style="color: var(--gold-bright);"></i> ঠিকানা: রাজারহাট, কলকাতা – ৭০০১৩৫</p>
+        <p style="color: var(--text-muted); font-size: 1rem;"><i class="fa-solid fa-phone" style="color: var(--gold-bright);"></i> ফোন: +91 82829 12691</p>
+      </div>
+
+      <div>
+        <h4 style="color: #fff; font-family: var(--font-sans); font-size: 1.1rem; font-weight: 700; margin-bottom: 18px;">প্যাকেজ সমূহ</h4>
+        <ul style="list-style: none; font-size: 1.02rem; line-height: 2.2;">
+          <li><a href="umrah.html" style="color: var(--gold-light); text-decoration: none;">স্ট্যান্ডার্ড প্যাকেজ (৳৯৫,০০০)</a></li>
+          <li><a href="umrah.html" style="color: var(--gold-light); text-decoration: none;">ডিলাক্স প্যাকেজ (৳১২০,০০০)</a></li>
+          <li><a href="hajj.html" style="color: var(--gold-light); text-decoration: none;">হজ্জ প্যাকেজ ও পরামর্শ</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 style="color: #fff; font-family: var(--font-sans); font-size: 1.1rem; font-weight: 700; margin-bottom: 18px;">পেজ লিংক</h4>
+        <ul style="list-style: none; font-size: 1.02rem; line-height: 2.2;">
+          <li><a href="index.html" style="color: var(--gold-light); text-decoration: none;">হোম পেজ</a></li>
+          <li><a href="umrah.html" style="color: var(--gold-light); text-decoration: none;">উমরাহ প্যাকেজ</a></li>
+          <li><a href="gallery.html" style="color: var(--gold-light); text-decoration: none;">গ্যালারি</a></li>
+          <li><a href="contact.html" style="color: var(--gold-light); text-decoration: none;">যোগাযোগ ও বুকিং</a></li>
+        </ul>
+      </div>
+    </div>
+    <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 25px; text-align: center; font-family: var(--font-sans); font-size: 12px; font-weight: 600; color: var(--text-dim);">
+      &copy; 2026 AL NOOR TOUR &amp; TRAVELS. ALL RIGHTS RESERVED. RAJARHAT, KOLKATA.
+    </div>
+  </footer>
+
+  <div class="floating-btns-wrap">
+    <a href="https://wa.me/918282912691?text=আসসালামু%20আলাইকুম" class="floating-circle-btn whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://www.facebook.com/alnurtourandtravels" class="floating-circle-btn facebook" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+  </div>
+
+</body>
+</html>
